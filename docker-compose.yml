@@ -1,0 +1,66 @@
+version: '3'
+
+services:
+    rabbitmq_disk_node:
+      build: ./
+      # 这个主机作为磁盘节点
+      hostname: rabbitmq_base_disk_node_host
+      container_name: rabbitmq_disk_node_container
+      restart: always
+
+      ports:
+        - "15672:15672"   # web管理端口
+        - "5672:5672"   #客户端连接的网络接口
+
+      environment:
+         # 集群通信cookie 集群通信的标识
+        - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
+        - RABBITMQ_NODENAME=rabbit@rabbitmq_disk_node
+      # command: /tmp/rabbitmq_base_disk_node_host.sh
+
+    # rabbitmq_ram_1_node:
+    #   build: ./
+    #   # 这个主机作为内存节点
+    #   hostname: rabbitmq_ram_1_node_host
+    #   container_name: rabbitmq_ram_1_node_container
+      # restart: always
+
+    #   # 为第一个容器设置别名, 可以在这个容器内部连接
+
+    #   # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
+    #   depends_on:
+    #     - rabbitmq_disk_node
+    #   ports:
+    #     - "15673:15672"   # web管理端口
+    #     - "5673:5672"   #客户端连接的网络接口
+
+    #   environment:
+    #     # 集群通信cookie 集群通信的标识
+    #     - RABBITMQ_ERLANG_COOKIE=wilsoncookie1997
+    #     - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_1_node
+    #     - RABBITMQ_DEFAULT_VHOST=my_vhost
+
+    #   command: /tmp/rabbitmq_ram_1_node_host.sh
+
+    # rabbitmq_ram_2_node:
+    #   build: ./
+    #   # 这个主机也作为内存节点
+    #   hostname: rabbitmq_ram_2_node_host
+    #   container_name: rabbitmq_ram_2_node_container
+    #   restart: always
+
+    #   # 配置依赖项 必须在第1个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
+    #   depends_on:
+    #      - rabbitmq_disk_node
+    #   ports:
+    #      - "15674:15672"   # web管理端口
+    #      - "5674:5672"   #客户端连接的网络接口
+
+    #   # 为第一个容器设置别名, 可以在这个容器内部连接
+
+    #   environment:
+    #     # 集群通信cookie 集群通信的标识
+    #      - RABBITMQ_ERLANG_COOKIE=wilsoncookie1997
+    #      - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_2_node
+
+    #   command: /tmp/rabbitmq_ram_2_node_host.sh
