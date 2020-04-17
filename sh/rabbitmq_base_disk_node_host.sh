@@ -1,9 +1,12 @@
 #!/bin/bash
+#启动web管理插件
+rabbitmq-plugins enable rabbitmq_management
 
-rabbitmqctl stop_app
+rabbitmq-server
 
-rabbitmqctl reset
+# rabbitmqctl stop_app
 
-sudo rm -rf /var/log/rabbitmq/*
+# rabbitmqctl reset
 
-rabbitmqctl start_app
+# rabbitmqctl start_app
+

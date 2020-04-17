@@ -1,0 +1,542 @@
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-15-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-24-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-254-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-366-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-625-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+Error:
+{:noproc, {:gen_server2, :call, [:worker_pool, {:next_free, #PID<10659.352.0>}, :infinity]}}
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-22-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-16-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-22-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-293-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-405-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-16-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-19-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-247-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-365-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+Error:
+User "admin" already exists
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-25-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-13-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-272-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+Error:
+{:noproc, {:gen_server, :call, [:mnesia_sync, :sync, :infinity]}}
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 5 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 5 seconds
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 4 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 0 seconds
+Error: this command requires the 'rabbit' app to be stopped on the target node. Stop it with 'rabbitmqctl stop_app'.
+Arguments given:
+	join_cluster --ram rabbit@rabbitmq_disk_node
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] join_cluster [--disc|--ram] <existing_cluster_member>

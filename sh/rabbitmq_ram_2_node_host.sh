@@ -1,9 +1,14 @@
 #!/bin/bash
+rabbitmq-plugins enable rabbitmq_management
 
-rabbitmqctl stop_app
+rabbitmq-server
 
-rabbitmqctl reset
+# rabbitmqctl join_cluster --ram rabbit@rabbitmq_disk_node
 
-rabbitmqctl join_cluster --ram rabbit@rabbit1
+# rabbitmqctl stop_app
 
-rabbitmqctl start_app
+# rabbitmqctl reset
+
+
+# rabbitmqctl start_app
+# rabbitmq-server
