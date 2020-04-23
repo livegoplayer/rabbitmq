@@ -14,3 +14,15 @@ Error:
 User "admin" already exists
 wait-for-it.sh: waiting 15 seconds for localhost:5672
 wait-for-it.sh: localhost:5672 is available after 5 seconds
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 6 seconds
+Error:
+User "admin" already exists
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 6 seconds
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 6 seconds
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 7 seconds
+Error:
+User "admin" already exists

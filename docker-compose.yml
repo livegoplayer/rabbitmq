@@ -71,4 +71,4 @@ services:
          - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
          - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_2_node
 
-      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/rabbitmq_ram_2_node_host.sh
+      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_2_node_main.sh

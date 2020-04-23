@@ -16,3 +16,15 @@ wait-for-it.sh: localhost:5672 is available after 8 seconds
 wait-for-it.sh: waiting 15 seconds for localhost:5672
 wait-for-it.sh: localhost:5672 is available after 8 seconds
 /tmp/rabbitmq_ram_1_node_host_ext.sh: line 1: ﻿#!/bin/bash: No such file or directory
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+/tmp/rabbitmq_ram_1_node_host_ext.sh: line 1: ﻿#!/bin/bash: No such file or directory
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 7 seconds
+/tmp/rabbitmq_ram_1_node_host_ext.sh: line 1: ﻿#!/bin/bash: No such file or directory
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: localhost:5672 is available after 6 seconds
+/tmp/rabbitmq_ram_1_node_host_ext.sh: line 1: ﻿#!/bin/bash: No such file or directory
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+/tmp/rabbitmq_ram_1_node_host_ext.sh: line 1: ﻿#!/bin/bash: No such file or directory
