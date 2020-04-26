@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wait-for-it" />
+  </component>
+  <component name="ProjectId" id="1b3nxSi7pqgD1eoNDYM6Rv9Kogc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.php.tools.quality.phpcs.PhpCSConfigurable" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
+      <created>1587869995454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587869995454</updated>
+      <workItem from="1587869997979" duration="2872000" />
+    </task>
+    <task id="LOCAL-00001" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <created>1587870442325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587870442325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <created>1587871268471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587871268471</updated>
+    </task>
+    <task id="LOCAL-00003" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <created>1587876509806</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587876509806</updated>
+    </task>
+    <task id="LOCAL-00004" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <created>1587877023184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587877023184</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1587877022440">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587877022440" />
+    <state x="105" y="65" key="DiffContextDialog" timestamp="1587871261278">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="105" y="65" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1587871261278" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587877187966">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587877187966" />
+    <state x="469" y="208" key="git4idea.merge.GitPullDialog" timestamp="1587877066977">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="469" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1587877066977" />
+  </component>
+</project>

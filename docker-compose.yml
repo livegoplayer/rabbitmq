@@ -13,15 +13,20 @@ services:
         - "5672:5672"   #客户端连接的网络接口
 
       environment:
-         # 集群通信cookie 集群通信的标识
+         # 集群通信cookie 集群通信的标识 
         - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
         - RABBITMQ_NODENAME=rabbit@rabbitmq_disk_node
+         # 设置数据持久化目录
+        - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
+        - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_disk_node
 
       volumes:
         # 项目上层路径
         # - ../:/apps
         # 日志存放路径
         - ./logs:/var/logs
+        # 持久化路径 $RABBITMQ_MNESIA_DIR
+        - ./data:/var/lib/rabbitmq/mnesia
       command: /tmp/supervisord_dist_node_main.sh
 
     rabbitmq_ram_1_node:
@@ -40,13 +45,17 @@ services:
       volumes:
         # 项目上层路径
         # - ../:/apps
-        # 日志存放路径
+        # 日志存放路径 
         - ./logs:/var/logs
-
+        # 持久化路径 $RABBITMQ_MNESIA_DIR
+        - ./data:/var/lib/rabbitmq/mnesia
       environment:
         # 集群通信cookie 集群通信的标识
         - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
         - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_1_node
+        # 设置数据持久化目录
+        - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
+        - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_1_node
       # 确保这两个容器有先后启动顺序 
       command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_1_node_main.sh
 
@@ -65,10 +74,19 @@ services:
          - "5674:5672"   #客户端连接的网络接口
 
       # 为第一个容器设置别名, 可以在这个容器内部连接
-
+      volumes:
+        # 项目上层路径
+        # - ../:/apps
+        # 日志存放路径 
+        - ./logs:/var/logs
+        # 持久化路径 $RABBITMQ_MNESIA_DIR
+        - ./data:/var/lib/rabbitmq/mnesia
       environment:
         # 集群通信cookie 集群通信的标识
-         - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
-         - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_2_node
+        - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
+        - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_2_node
+        # 设置数据持久化目录
+        - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
+        - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_2_node
 
       command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_2_node_main.sh
