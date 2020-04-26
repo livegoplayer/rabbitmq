@@ -58,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587869995454</updated>
       <workItem from="1587869997979" duration="2872000" />
+      <workItem from="1587877162970" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
       <created>1587870442325</created>
