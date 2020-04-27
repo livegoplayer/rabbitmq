@@ -82,3 +82,10 @@ WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+/tmp/rabbitmq_ram_1_node_host_ext.sh: line 1: ﻿#!/bin/bash: No such file or directory
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE

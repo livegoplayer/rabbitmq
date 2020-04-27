@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../company/wm_main" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,7 +62,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587869995454</updated>
       <workItem from="1587869997979" duration="2872000" />
-      <workItem from="1587877162970" duration="325000" />
+      <workItem from="1587877162970" duration="357000" />
+      <workItem from="1587877882327" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
       <created>1587870442325</created>
@@ -88,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587877023184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <created>1587877493725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587877493725</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,21 +111,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1587877022440">
+    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1587877492695">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587877022440" />
+    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587877492695" />
     <state x="105" y="65" key="DiffContextDialog" timestamp="1587871261278">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="105" y="65" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1587871261278" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587877187966">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1587877984786">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587877187966" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587877984786" />
+    <state x="614" y="333" key="VCS.ChangelistChooser" timestamp="1587954140729">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="614" y="333" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1587954140729" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587877500060">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587877500060" />
     <state x="469" y="208" key="git4idea.merge.GitPullDialog" timestamp="1587877066977">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="469" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1587877066977" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1587877912329">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1587877912329" />
   </component>
 </project>
