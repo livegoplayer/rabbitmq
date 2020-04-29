@@ -1,67 +1,243 @@
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:43.747 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:45.958 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:48.106 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:50.262 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:52.406 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:54.569 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:56.803 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:07:59.136 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:01.325 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:03.466 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:05.620 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:07.971 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:10.120 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:12.296 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:15.129 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:16.334 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:18.503 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:20.718 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:22.891 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:25.37 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:27.189 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:29.351 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:31.938 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:34.76 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:36.217 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:38.379 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:40.583 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:42.824 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:45.117 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:47.738 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:49.312 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:51.500 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:53.709 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:55.937 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:08:58.87 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:00.280 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:02.559 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:04.992 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:07.233 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:09.370 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:11.859 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+2020-04-28 18:09:14.6 [error] Unable to parse erlang terms from RABBITMQ_CONFIG_FILE file: /etc/rabbitmq/rabbitmq.config
+                                Reason: ["syntax error before: ","'=='"]
+                                Check that the file is in erlang term format. If you are using the new ini-style format, the file extension should be '.conf'
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+
+BOOT FAILED
+===========
+
+Config file generation failed:
+18:10:22.222 [error] You've tried to set management_db_cache_multiplier, but there is no setting with that name.
+18:10:22.222 [error]   Did you mean one of these?
+18:10:22.262 [error]     management.ssl.cacertfile
+18:10:22.262 [error]     management.ssl.ciphers.$cipher
+18:10:22.263 [error]     management.disable_stats
+18:10:22.263 [error] You've tried to set stomp.num_acceptors.tcp, but there is no setting with that name.
+18:10:22.263 [error]   Did you mean one of these?
+18:10:22.294 [error]     num_acceptors.tcp
+18:10:22.294 [error]     num_acceptors.ssl
+18:10:22.294 [error]     listeners.tcp
+18:10:22.295 [error] Error generating configuration in phase transform_datatypes
+18:10:22.295 [error] Conf file attempted to set unknown variable: stomp.num_acceptors.tcp
+18:10:22.295 [error] Conf file attempted to set unknown variable: management_db_cache_multiplier
+In case the setting comes from a plugin, make sure that the plugin is enabled.
+Alternatively remove the setting from the config.
+
+init terminating in do_boot (generate_config_file)
+
+Crash dump is being written to: /var/logs/rabbitmq_base_log/erl_crash.dump...done
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE

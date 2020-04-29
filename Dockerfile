@@ -41,7 +41,7 @@ RUN mkdir /var/logs/rabbitmq_log
 RUN mkdir /var/logs/rabbitmq_base_log
 
 #拷贝配置文件目录
-COPY ./config/*.config /etc/rabbitmq/
+COPY ./config/*.conf /etc/rabbitmq/
 
 # 拷贝基本的sh文件进去
 COPY ./sh /tmp

@@ -1,788 +1,239 @@
-2020-04-15 20:09:30,536 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-15 20:09:30,539 INFO Included extra file "/etc/supervisor/conf.d/supervisord_dist_node_main.conf" during parsing
-2020-04-15 20:09:30,540 INFO Included extra file "/etc/supervisor/conf.d/supervisord_ram_1_node_main.conf" during parsing
-2020-04-15 20:09:30,541 INFO Included extra file "/etc/supervisor/conf.d/supervisord_ram_2_node_main.conf" during parsing
-2020-04-15 20:09:30,548 INFO RPC interface 'supervisor' initialized
-2020-04-15 20:09:30,552 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-15 20:09:30,556 INFO supervisord started with pid 11
-2020-04-15 20:09:31,570 INFO spawned: 'nginx' with pid 14
-2020-04-15 20:09:31,580 INFO spawned: 'rabbitmq' with pid 17
-2020-04-15 20:09:32,970 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:09:32,971 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:09:32,999 INFO exited: rabbitmq (exit status 69; not expected)
-2020-04-15 20:09:34,005 INFO spawned: 'rabbitmq' with pid 500
-2020-04-15 20:09:35,003 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:09:35,028 INFO exited: rabbitmq (exit status 69; not expected)
-2020-04-15 20:09:35,765 INFO spawned: 'rabbitmq' with pid 725
-2020-04-15 20:09:36,785 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:09:36,803 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:09:37,811 INFO spawned: 'rabbitmq' with pid 961
-2020-04-15 20:09:38,484 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:09:39,494 INFO spawned: 'rabbitmq' with pid 1192
-2020-04-15 20:09:40,177 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:09:42,188 INFO spawned: 'rabbitmq' with pid 1423
-2020-04-15 20:09:42,879 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:09:45,893 INFO spawned: 'rabbitmq' with pid 1656
-2020-04-15 20:09:46,569 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:09:47,575 INFO gave up: rabbitmq entered FATAL state, too many start retries too quickly
-2020-04-15 20:14:21,370 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-15 20:14:21,371 INFO Included extra file "/etc/supervisor/conf.d/supervisord_dist_node_main.conf" during parsing
-2020-04-15 20:14:21,372 INFO Included extra file "/etc/supervisor/conf.d/supervisord_ram_1_node_main.conf" during parsing
-2020-04-15 20:14:21,373 INFO Included extra file "/etc/supervisor/conf.d/supervisord_ram_2_node_main.conf" during parsing
-2020-04-15 20:14:21,689 INFO RPC interface 'supervisor' initialized
-2020-04-15 20:14:21,690 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-15 20:14:21,691 INFO supervisord started with pid 11
-2020-04-15 20:14:22,703 INFO spawned: 'nginx' with pid 14
-2020-04-15 20:14:22,707 INFO spawned: 'rabbitmq' with pid 15
-2020-04-15 20:14:23,712 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:14:23,714 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:14:24,892 INFO exited: rabbitmq (exit status 70; not expected)
-2020-04-15 20:14:25,897 INFO spawned: 'rabbitmq' with pid 660
-2020-04-15 20:14:26,910 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:14:26,932 INFO exited: rabbitmq (exit status 70; not expected)
-2020-04-15 20:14:27,176 INFO spawned: 'rabbitmq' with pid 891
-2020-04-15 20:14:28,317 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:14:29,228 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:14:29,267 INFO spawned: 'rabbitmq' with pid 1128
-2020-04-15 20:14:30,400 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:14:30,418 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:14:31,431 INFO spawned: 'rabbitmq' with pid 1361
-2020-04-15 20:14:32,179 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:14:33,194 INFO spawned: 'rabbitmq' with pid 1592
-2020-04-15 20:14:33,868 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:14:35,881 INFO spawned: 'rabbitmq' with pid 1823
-2020-04-15 20:14:36,574 INFO exited: rabbitmq (exit status 64; not expected)
-2020-04-15 20:15:40,378 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-15 20:15:40,426 INFO Included extra file "/etc/supervisor/conf.d/supervisord_dist_node_main.conf" during parsing
-2020-04-15 20:15:40,427 INFO Included extra file "/etc/supervisor/conf.d/supervisord_ram_1_node_main.conf" during parsing
-2020-04-15 20:15:40,428 INFO Included extra file "/etc/supervisor/conf.d/supervisord_ram_2_node_main.conf" during parsing
-2020-04-15 20:15:40,742 INFO RPC interface 'supervisor' initialized
-2020-04-15 20:15:40,743 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-15 20:15:40,744 INFO supervisord started with pid 11
-2020-04-15 20:15:41,751 INFO spawned: 'nginx' with pid 14
-2020-04-15 20:15:41,756 INFO spawned: 'rabbitmq' with pid 16
-2020-04-15 20:15:42,759 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:15:42,760 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:15:43,915 INFO exited: nginx (exit status 70; not expected)
-2020-04-15 20:15:44,922 INFO spawned: 'nginx' with pid 660
-2020-04-15 20:15:45,976 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:15:46,000 INFO exited: nginx (exit status 70; not expected)
-2020-04-15 20:15:46,200 INFO spawned: 'nginx' with pid 891
-2020-04-15 20:15:47,675 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:15:47,783 INFO exited: nginx (exit status 64; not expected)
-2020-04-15 20:15:47,833 INFO spawned: 'nginx' with pid 1130
-2020-04-15 20:15:48,766 INFO exited: nginx (exit status 64; not expected)
-2020-04-15 20:15:49,784 INFO spawned: 'nginx' with pid 1361
-2020-04-15 20:15:50,511 INFO exited: nginx (exit status 64; not expected)
-2020-04-15 20:15:52,524 INFO spawned: 'nginx' with pid 1592
-2020-04-15 20:15:53,252 INFO exited: nginx (exit status 64; not expected)
-2020-04-15 20:17:06,780 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-15 20:17:06,790 INFO RPC interface 'supervisor' initialized
-2020-04-15 20:17:06,791 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-15 20:17:06,794 INFO supervisord started with pid 11
-2020-04-15 20:17:07,816 INFO spawned: 'rabbitmq_ext' with pid 14
-2020-04-15 20:17:07,823 INFO spawned: 'rabbitmq' with pid 17
-2020-04-15 20:17:08,856 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:17:08,857 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:17:09,293 INFO exited: rabbitmq_ext (exit status 69; not expected)
-2020-04-15 20:17:09,674 INFO spawned: 'rabbitmq_ext' with pid 364
-2020-04-15 20:17:11,157 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:17:11,174 INFO exited: rabbitmq_ext (exit status 69; not expected)
-2020-04-15 20:17:12,182 INFO spawned: 'rabbitmq_ext' with pid 855
-2020-04-15 20:17:13,474 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:17:13,499 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-15 20:17:14,505 INFO spawned: 'rabbitmq_ext' with pid 1074
-2020-04-15 20:17:15,905 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:17:16,431 INFO exited: rabbitmq_ext (exit status 69; not expected)
-2020-04-15 20:17:16,565 INFO spawned: 'rabbitmq_ext' with pid 1293
-2020-04-15 20:17:17,756 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-15 20:17:17,819 INFO exited: rabbitmq_ext (exit status 0; expected)
-2020-04-16 12:11:51,130 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-16 12:11:51,441 INFO RPC interface 'supervisor' initialized
-2020-04-16 12:11:51,442 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-16 12:11:51,443 INFO supervisord started with pid 12
-2020-04-16 12:11:52,450 INFO spawned: 'rabbitmq_ext' with pid 15
-2020-04-16 12:11:52,456 INFO spawned: 'rabbitmq' with pid 18
-2020-04-16 12:11:53,458 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-16 12:11:53,458 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-16 12:11:54,260 INFO exited: rabbitmq_ext (exit status 69; not expected)
-2020-04-16 12:11:54,367 INFO spawned: 'rabbitmq_ext' with pid 404
-2020-04-16 12:11:55,374 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-16 12:11:56,311 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-16 12:11:57,315 INFO spawned: 'rabbitmq_ext' with pid 895
-2020-04-16 12:11:58,509 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-16 12:11:58,526 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-16 12:11:59,531 INFO spawned: 'rabbitmq_ext' with pid 1114
-2020-04-16 12:12:00,750 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-16 12:12:01,127 INFO exited: rabbitmq_ext (exit status 0; expected)
-2020-04-17 08:13:03,601 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:13:03,628 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:13:03,629 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:13:03,630 INFO supervisord started with pid 11
-2020-04-17 08:13:04,639 INFO spawned: 'rabbitmq_ext' with pid 14
-2020-04-17 08:13:04,645 INFO spawned: 'rabbitmq' with pid 15
-2020-04-17 08:13:05,734 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:05,735 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:06,387 INFO exited: rabbitmq_ext (exit status 69; not expected)
-2020-04-17 08:13:06,474 INFO spawned: 'rabbitmq_ext' with pid 364
-2020-04-17 08:13:08,189 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:08,206 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:13:09,210 INFO spawned: 'rabbitmq_ext' with pid 855
-2020-04-17 08:13:10,907 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:10,928 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:13:11,850 INFO spawned: 'rabbitmq_ext' with pid 1074
-2020-04-17 08:13:12,924 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:13,254 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:13:13,261 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:13:13,262 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:13:13,263 INFO supervisord started with pid 39
-2020-04-17 08:13:13,442 INFO exited: rabbitmq_ext (exit status 0; expected)
-2020-04-17 08:13:14,276 INFO spawned: 'nginx' with pid 42
-2020-04-17 08:13:14,284 INFO spawned: 'rabbitmq' with pid 46
-2020-04-17 08:13:15,294 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:15,294 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:13:18,744 INFO exited: nginx (exit status 64; not expected)
-2020-04-17 08:13:19,752 INFO spawned: 'nginx' with pid 440
-2020-04-17 08:13:20,256 INFO exited: nginx (exit status 64; not expected)
-2020-04-17 08:13:21,263 INFO spawned: 'nginx' with pid 558
-2020-04-17 08:13:21,713 INFO exited: nginx (exit status 64; not expected)
-2020-04-17 08:13:23,725 INFO spawned: 'nginx' with pid 676
-2020-04-17 08:13:24,171 INFO exited: nginx (exit status 64; not expected)
-2020-04-17 08:13:27,191 INFO spawned: 'nginx' with pid 794
-2020-04-17 08:13:27,652 INFO exited: nginx (exit status 64; not expected)
-2020-04-17 08:13:28,655 INFO gave up: nginx entered FATAL state, too many start retries too quickly
-2020-04-17 08:16:30,762 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:16:30,766 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:16:30,767 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:16:30,768 INFO supervisord started with pid 9
-2020-04-17 08:16:31,776 INFO spawned: 'rabbitmq_ext' with pid 12
-2020-04-17 08:16:31,784 INFO spawned: 'rabbitmq' with pid 20
-2020-04-17 08:16:32,786 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:16:32,786 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:16:33,691 INFO exited: rabbitmq_ext (exit status 69; not expected)
-2020-04-17 08:16:34,695 INFO spawned: 'rabbitmq_ext' with pid 640
-2020-04-17 08:16:36,119 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:16:36,139 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:16:37,143 INFO spawned: 'rabbitmq_ext' with pid 853
-2020-04-17 08:16:38,144 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:16:38,466 INFO exited: rabbitmq_ext (exit status 0; expected)
-2020-04-17 08:16:39,367 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:16:39,372 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:16:39,373 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:16:39,374 INFO supervisord started with pid 36
-2020-04-17 08:16:40,384 INFO spawned: 'rabbitmq_ext' with pid 39
-2020-04-17 08:16:40,388 INFO spawned: 'rabbitmq' with pid 40
-2020-04-17 08:16:41,403 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:16:41,404 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:16:45,853 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:16:46,859 INFO spawned: 'rabbitmq_ext' with pid 439
-2020-04-17 08:16:47,308 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:16:48,316 INFO spawned: 'rabbitmq_ext' with pid 557
-2020-04-17 08:16:48,776 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:16:50,789 INFO spawned: 'rabbitmq_ext' with pid 675
-2020-04-17 08:16:51,284 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:16:54,299 INFO spawned: 'rabbitmq_ext' with pid 795
-2020-04-17 08:16:54,753 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:16:55,758 INFO gave up: rabbitmq_ext entered FATAL state, too many start retries too quickly
-2020-04-17 08:20:53,633 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:20:53,637 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:20:53,637 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:20:53,638 INFO supervisord started with pid 9
-2020-04-17 08:20:54,651 INFO spawned: 'rabbitmq_ext' with pid 12
-2020-04-17 08:20:54,659 INFO spawned: 'rabbitmq' with pid 16
-2020-04-17 08:20:55,698 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:20:55,699 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:21:00,234 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:21:00,239 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:21:00,240 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:21:00,241 INFO supervisord started with pid 33
-2020-04-17 08:21:00,636 INFO exited: rabbitmq_ext (exit status 0; expected)
-2020-04-17 08:21:01,249 INFO spawned: 'rabbitmq_ext' with pid 36
-2020-04-17 08:21:01,252 INFO spawned: 'rabbitmq' with pid 37
-2020-04-17 08:21:02,268 INFO success: rabbitmq_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:21:02,268 INFO success: rabbitmq entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:21:05,729 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:21:06,738 INFO spawned: 'rabbitmq_ext' with pid 434
-2020-04-17 08:21:07,189 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:21:08,196 INFO spawned: 'rabbitmq_ext' with pid 552
-2020-04-17 08:21:08,652 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:21:10,660 INFO spawned: 'rabbitmq_ext' with pid 670
-2020-04-17 08:21:11,119 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:21:14,136 INFO spawned: 'rabbitmq_ext' with pid 790
-2020-04-17 08:21:14,594 INFO exited: rabbitmq_ext (exit status 64; not expected)
-2020-04-17 08:21:15,600 INFO gave up: rabbitmq_ext entered FATAL state, too many start retries too quickly
-2020-04-17 08:30:24,449 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:30:24,456 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:30:24,456 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:30:24,457 INFO supervisord started with pid 9
-2020-04-17 08:30:25,468 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-17 08:30:25,475 INFO spawned: 'rabbitmq_disk_node' with pid 13
-2020-04-17 08:30:26,528 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:30:26,528 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:30:31,006 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 08:30:31,011 INFO RPC interface 'supervisor' initialized
-2020-04-17 08:30:31,011 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 08:30:31,012 INFO supervisord started with pid 32
-2020-04-17 08:30:31,471 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-17 08:30:32,026 INFO spawned: 'rabbitmq_ram_1' with pid 35
-2020-04-17 08:30:32,034 INFO spawned: 'rabbitmq_ram_1_ext' with pid 39
-2020-04-17 08:30:33,050 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:30:33,050 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 08:30:38,863 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-17 09:30:44,702 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 09:30:44,706 INFO RPC interface 'supervisor' initialized
-2020-04-17 09:30:44,706 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 09:30:44,707 INFO supervisord started with pid 9
-2020-04-17 09:30:45,711 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-17 09:30:45,716 INFO spawned: 'rabbitmq_disk_node' with pid 13
-2020-04-17 09:30:46,740 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:30:46,743 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:30:55,491 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 09:30:55,496 INFO RPC interface 'supervisor' initialized
-2020-04-17 09:30:55,497 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 09:30:55,498 INFO supervisord started with pid 40
-2020-04-17 09:30:56,503 INFO spawned: 'rabbitmq_ram_1' with pid 43
-2020-04-17 09:30:56,509 INFO spawned: 'rabbitmq_ram_1_ext' with pid 44
-2020-04-17 09:30:56,733 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-17 09:30:57,736 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:30:57,737 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:31:04,597 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-17 09:32:34,967 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 09:32:35,271 INFO RPC interface 'supervisor' initialized
-2020-04-17 09:32:35,272 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 09:32:35,273 INFO supervisord started with pid 16
-2020-04-17 09:32:36,277 INFO spawned: 'rabbitmq_disk_node_ext' with pid 19
-2020-04-17 09:32:36,290 INFO spawned: 'rabbitmq_disk_node' with pid 25
-2020-04-17 09:32:37,325 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:32:37,325 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:32:42,707 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 09:32:43,015 INFO RPC interface 'supervisor' initialized
-2020-04-17 09:32:43,016 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 09:32:43,016 INFO supervisord started with pid 36
-2020-04-17 09:32:44,020 INFO spawned: 'rabbitmq_ram_1' with pid 39
-2020-04-17 09:32:44,024 INFO spawned: 'rabbitmq_ram_1_ext' with pid 40
-2020-04-17 09:32:44,474 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-17 09:32:45,050 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:32:45,057 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 09:32:54,879 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-17 10:15:19,232 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 10:15:19,242 INFO RPC interface 'supervisor' initialized
-2020-04-17 10:15:19,242 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 10:15:19,258 INFO supervisord started with pid 9
-2020-04-17 10:15:20,261 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-17 10:15:20,269 INFO spawned: 'rabbitmq_disk_node' with pid 17
-2020-04-17 10:15:21,698 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:15:21,699 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:15:27,276 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 10:15:27,280 INFO RPC interface 'supervisor' initialized
-2020-04-17 10:15:27,281 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 10:15:27,285 INFO supervisord started with pid 34
-2020-04-17 10:15:27,620 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-17 10:15:28,294 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-17 10:15:28,298 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-17 10:15:29,856 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:15:29,856 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:15:37,460 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-17 10:16:04,011 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 10:16:04,322 INFO RPC interface 'supervisor' initialized
-2020-04-17 10:16:04,323 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 10:16:04,323 INFO supervisord started with pid 11
-2020-04-17 10:16:05,330 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-17 10:16:05,338 INFO spawned: 'rabbitmq_disk_node' with pid 18
-2020-04-17 10:16:07,303 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:16:07,303 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:16:10,676 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 10:16:10,982 INFO RPC interface 'supervisor' initialized
-2020-04-17 10:16:10,982 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 10:16:10,983 INFO supervisord started with pid 34
-2020-04-17 10:16:11,626 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-17 10:16:11,988 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-17 10:16:11,992 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-17 10:16:13,019 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:16:13,020 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:16:22,976 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-17 10:24:00,148 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 10:24:00,152 INFO RPC interface 'supervisor' initialized
-2020-04-17 10:24:00,152 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 10:24:00,153 INFO supervisord started with pid 9
-2020-04-17 10:24:01,158 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-17 10:24:01,161 INFO spawned: 'rabbitmq_disk_node' with pid 13
-2020-04-17 10:24:03,100 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:24:03,100 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:24:06,043 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-17 10:24:06,047 INFO RPC interface 'supervisor' initialized
-2020-04-17 10:24:06,050 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-17 10:24:06,050 INFO supervisord started with pid 30
-2020-04-17 10:24:07,055 INFO spawned: 'rabbitmq_ram_1' with pid 33
-2020-04-17 10:24:07,059 INFO spawned: 'rabbitmq_ram_1_ext' with pid 34
-2020-04-17 10:24:07,602 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-17 10:24:08,079 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:24:08,081 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-17 10:24:17,890 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 09:25:57,481 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:25:57,795 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:25:57,801 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:25:57,803 INFO supervisord started with pid 13
-2020-04-19 09:25:58,812 INFO spawned: 'rabbitmq_disk_node_ext' with pid 16
-2020-04-19 09:25:58,815 INFO spawned: 'rabbitmq_disk_node' with pid 17
-2020-04-19 09:25:59,923 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:25:59,924 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:26:05,105 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:26:05,426 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:26:05,485 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:26:05,492 INFO supervisord started with pid 36
-2020-04-19 09:26:06,315 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 09:26:06,499 INFO spawned: 'rabbitmq_ram_1' with pid 39
-2020-04-19 09:26:06,509 INFO spawned: 'rabbitmq_ram_1_ext' with pid 47
-2020-04-19 09:26:07,978 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:26:07,979 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:28:26,715 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:28:26,725 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:28:26,726 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:28:26,726 INFO supervisord started with pid 13
-2020-04-19 09:28:27,732 INFO spawned: 'rabbitmq_disk_node_ext' with pid 16
-2020-04-19 09:28:27,740 INFO spawned: 'rabbitmq_disk_node' with pid 20
-2020-04-19 09:28:29,086 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:28:29,086 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:28:33,599 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:28:33,633 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:28:33,633 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:28:33,634 INFO supervisord started with pid 32
-2020-04-19 09:28:34,638 INFO spawned: 'rabbitmq_ram_1' with pid 35
-2020-04-19 09:28:34,648 INFO spawned: 'rabbitmq_ram_1_ext' with pid 39
-2020-04-19 09:28:35,666 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:28:35,666 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:28:35,700 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 09:28:44,951 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 09:31:05,905 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:31:05,917 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:31:05,924 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:31:05,924 INFO supervisord started with pid 9
-2020-04-19 09:31:06,943 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-19 09:31:06,950 INFO spawned: 'rabbitmq_disk_node' with pid 14
-2020-04-19 09:31:08,030 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:31:08,031 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:31:13,872 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:31:13,878 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:31:13,879 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:31:13,879 INFO supervisord started with pid 34
-2020-04-19 09:31:14,068 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 09:31:14,896 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-19 09:31:14,906 INFO spawned: 'rabbitmq_ram_1_ext' with pid 40
-2020-04-19 09:31:16,446 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:31:16,447 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:31:24,352 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 09:34:15,032 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:34:15,340 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:34:15,354 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:34:15,367 INFO supervisord started with pid 11
-2020-04-19 09:34:16,384 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 09:34:16,387 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 09:34:17,567 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:34:17,568 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:34:23,752 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 09:34:24,065 INFO RPC interface 'supervisor' initialized
-2020-04-19 09:34:24,066 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 09:34:24,067 INFO supervisord started with pid 38
-2020-04-19 09:34:25,072 INFO spawned: 'rabbitmq_ram_1' with pid 41
-2020-04-19 09:34:25,080 INFO spawned: 'rabbitmq_ram_1_ext' with pid 44
-2020-04-19 09:34:26,106 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:34:26,108 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 09:34:26,145 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 09:34:46,859 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 13:11:43,231 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 13:11:43,236 INFO RPC interface 'supervisor' initialized
-2020-04-19 13:11:43,236 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 13:11:43,237 INFO supervisord started with pid 11
-2020-04-19 13:11:44,250 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 13:11:44,255 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 13:11:45,333 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 13:11:45,333 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 13:11:49,989 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 13:11:49,993 INFO RPC interface 'supervisor' initialized
-2020-04-19 13:11:49,994 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 13:11:49,994 INFO supervisord started with pid 32
-2020-04-19 13:11:51,000 INFO spawned: 'rabbitmq_ram_1' with pid 35
-2020-04-19 13:11:51,003 INFO spawned: 'rabbitmq_ram_1_ext' with pid 36
-2020-04-19 13:11:51,527 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 13:11:52,036 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 13:11:52,037 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 13:12:07,737 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 16:49:43,475 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 16:49:43,487 INFO RPC interface 'supervisor' initialized
-2020-04-19 16:49:43,488 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 16:49:43,488 INFO supervisord started with pid 11
-2020-04-19 16:49:44,497 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 16:49:44,504 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 16:49:45,576 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:49:45,577 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:49:56,823 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 16:49:56,830 INFO RPC interface 'supervisor' initialized
-2020-04-19 16:49:56,831 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 16:49:56,832 INFO supervisord started with pid 44
-2020-04-19 16:49:57,840 INFO spawned: 'rabbitmq_ram_1' with pid 47
-2020-04-19 16:49:57,847 INFO spawned: 'rabbitmq_ram_1_ext' with pid 48
-2020-04-19 16:49:58,917 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:49:58,919 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:49:59,405 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 16:50:26,965 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 16:56:05,498 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 16:56:05,506 INFO RPC interface 'supervisor' initialized
-2020-04-19 16:56:05,508 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 16:56:05,509 INFO supervisord started with pid 12
-2020-04-19 16:56:06,527 INFO spawned: 'rabbitmq_disk_node_ext' with pid 15
-2020-04-19 16:56:06,540 INFO spawned: 'rabbitmq_disk_node' with pid 16
-2020-04-19 16:56:07,874 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:56:07,875 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:56:15,903 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 16:56:15,910 INFO RPC interface 'supervisor' initialized
-2020-04-19 16:56:15,915 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 16:56:15,921 INFO supervisord started with pid 40
-2020-04-19 16:56:16,506 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 16:56:16,931 INFO spawned: 'rabbitmq_ram_1' with pid 43
-2020-04-19 16:56:16,937 INFO spawned: 'rabbitmq_ram_1_ext' with pid 45
-2020-04-19 16:56:17,957 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:56:17,958 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 16:56:42,894 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 17:29:09,728 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:29:09,829 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:29:09,833 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:29:09,834 INFO supervisord started with pid 11
-2020-04-19 17:29:10,839 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 17:29:10,844 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 17:29:12,072 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:29:12,073 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:29:16,651 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:29:16,656 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:29:16,657 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:29:16,658 INFO supervisord started with pid 34
-2020-04-19 17:29:17,662 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-19 17:29:17,666 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-19 17:29:18,179 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:29:18,696 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:29:18,697 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:29:30,999 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 17:38:57,422 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:38:57,426 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:38:57,426 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:38:57,427 INFO supervisord started with pid 15
-2020-04-19 17:38:58,435 INFO spawned: 'rabbitmq_disk_node_ext' with pid 18
-2020-04-19 17:38:58,439 INFO spawned: 'rabbitmq_disk_node' with pid 19
-2020-04-19 17:38:59,528 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:38:59,529 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:39:05,278 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:39:05,283 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:39:05,285 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:39:05,286 INFO supervisord started with pid 34
-2020-04-19 17:39:05,519 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:39:06,302 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-19 17:39:06,306 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-19 17:39:07,332 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:39:07,333 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:39:21,242 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 17:42:08,079 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:42:08,384 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:42:08,385 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:42:08,386 INFO supervisord started with pid 12
-2020-04-19 17:42:09,394 INFO spawned: 'rabbitmq_disk_node_ext' with pid 15
-2020-04-19 17:42:09,399 INFO spawned: 'rabbitmq_disk_node' with pid 16
-2020-04-19 17:42:10,513 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:42:10,513 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:42:16,019 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:42:16,325 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:42:16,326 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:42:16,327 INFO supervisord started with pid 36
-2020-04-19 17:42:16,488 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:42:17,332 INFO spawned: 'rabbitmq_ram_1' with pid 39
-2020-04-19 17:42:17,337 INFO spawned: 'rabbitmq_ram_1_ext' with pid 40
-2020-04-19 17:42:18,366 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:42:18,367 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:42:33,439 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 17:48:37,539 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:48:37,547 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:48:37,548 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:48:37,548 INFO supervisord started with pid 12
-2020-04-19 17:48:38,556 INFO spawned: 'rabbitmq_disk_node_ext' with pid 15
-2020-04-19 17:48:38,560 INFO spawned: 'rabbitmq_disk_node' with pid 16
-2020-04-19 17:48:39,644 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:48:39,645 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:48:44,201 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:48:44,206 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:48:44,207 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:48:44,207 INFO supervisord started with pid 34
-2020-04-19 17:48:45,214 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-19 17:48:45,219 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-19 17:48:45,934 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:48:46,251 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:48:46,252 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:49:00,773 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 17:52:18,606 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:52:18,613 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:52:18,614 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:52:18,615 INFO supervisord started with pid 11
-2020-04-19 17:52:19,627 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 17:52:19,632 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 17:52:20,734 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:52:20,734 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:52:25,454 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:52:25,461 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:52:25,461 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:52:25,462 INFO supervisord started with pid 34
-2020-04-19 17:52:26,473 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-19 17:52:26,478 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-19 17:52:26,809 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:52:27,515 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:52:27,516 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:52:44,051 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 17:54:46,218 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:54:46,536 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:54:46,537 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:54:46,538 INFO supervisord started with pid 11
-2020-04-19 17:54:47,545 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 17:54:47,550 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 17:54:48,652 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:54:48,652 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:54:53,870 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:54:54,174 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:54:54,175 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:54:54,176 INFO supervisord started with pid 36
-2020-04-19 17:54:54,645 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:54:55,181 INFO spawned: 'rabbitmq_ram_1' with pid 39
-2020-04-19 17:54:55,185 INFO spawned: 'rabbitmq_ram_1_ext' with pid 40
-2020-04-19 17:54:56,211 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:54:56,217 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:55:19,119 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:55:19,126 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:55:19,129 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:55:19,131 INFO supervisord started with pid 9
-2020-04-19 17:55:20,137 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-19 17:55:20,141 INFO spawned: 'rabbitmq_disk_node' with pid 13
-2020-04-19 17:55:21,188 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:55:21,189 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:55:26,811 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 17:55:26,815 INFO RPC interface 'supervisor' initialized
-2020-04-19 17:55:26,816 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 17:55:26,817 INFO supervisord started with pid 34
-2020-04-19 17:55:27,325 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 17:55:27,827 INFO spawned: 'rabbitmq_ram_1' with pid 37
-2020-04-19 17:55:27,831 INFO spawned: 'rabbitmq_ram_1_ext' with pid 38
-2020-04-19 17:55:28,852 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:55:28,852 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 17:55:44,737 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-19 18:09:17,334 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:09:17,341 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:09:17,343 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:09:17,369 INFO supervisord started with pid 11
-2020-04-19 18:09:18,399 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 18:09:18,403 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 18:09:19,473 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:19,474 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:33,369 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:09:33,374 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:09:33,375 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:09:33,375 INFO supervisord started with pid 50
-2020-04-19 18:09:33,451 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:09:33,456 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:09:33,458 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:09:33,459 INFO supervisord started with pid 50
-2020-04-19 18:09:34,380 INFO spawned: 'rabbitmq_ram_1' with pid 53
-2020-04-19 18:09:34,386 INFO spawned: 'rabbitmq_ram_1_ext' with pid 54
-2020-04-19 18:09:34,467 INFO spawned: 'rabbitmq_ram_2' with pid 53
-2020-04-19 18:09:34,477 INFO spawned: 'rabbitmq_ram_2_ext' with pid 55
-2020-04-19 18:09:35,442 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:35,443 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:35,515 INFO success: rabbitmq_ram_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:35,515 INFO success: rabbitmq_ram_2_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:35,878 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:09:36,884 INFO spawned: 'rabbitmq_disk_node_ext' with pid 663
-2020-04-19 18:09:37,931 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:09:55,239 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:09:56,247 INFO spawned: 'rabbitmq_disk_node_ext' with pid 915
-2020-04-19 18:09:57,288 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:10:13,630 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:10:14,044 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1167
-2020-04-19 18:10:15,045 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:10:18,571 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 18:11:36,418 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:11:36,723 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:11:36,724 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:11:36,725 INFO supervisord started with pid 11
-2020-04-19 18:11:37,734 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-19 18:11:37,738 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-19 18:11:38,799 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:11:38,800 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:11:52,383 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:11:52,391 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:11:52,689 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:11:52,690 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:11:52,692 INFO supervisord started with pid 50
-2020-04-19 18:11:52,696 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:11:52,697 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:11:52,698 INFO supervisord started with pid 50
-2020-04-19 18:11:53,696 INFO spawned: 'rabbitmq_ram_2' with pid 53
-2020-04-19 18:11:53,717 INFO spawned: 'rabbitmq_ram_1' with pid 53
-2020-04-19 18:11:53,715 INFO spawned: 'rabbitmq_ram_2_ext' with pid 66
-2020-04-19 18:11:53,726 INFO spawned: 'rabbitmq_ram_1_ext' with pid 54
-2020-04-19 18:11:54,779 INFO success: rabbitmq_ram_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:11:54,780 INFO success: rabbitmq_ram_2_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:11:54,807 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:11:54,809 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:11:55,405 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:11:56,410 INFO spawned: 'rabbitmq_disk_node_ext' with pid 687
-2020-04-19 18:11:57,437 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:12:14,373 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:12:14,380 INFO spawned: 'rabbitmq_disk_node_ext' with pid 945
-2020-04-19 18:12:15,413 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:12:33,298 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:12:34,306 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1203
-2020-04-19 18:12:35,352 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:12:51,605 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:12:52,613 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1461
-2020-04-19 18:12:53,638 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:13:01,845 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 18:13:55,962 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:13:55,971 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:13:55,972 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:13:55,972 INFO supervisord started with pid 10
-2020-04-19 18:13:56,979 INFO spawned: 'rabbitmq_disk_node_ext' with pid 13
-2020-04-19 18:13:56,984 INFO spawned: 'rabbitmq_disk_node' with pid 14
-2020-04-19 18:13:58,084 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:13:58,084 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:11,730 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:14:11,736 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:14:11,737 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:14:11,738 INFO supervisord started with pid 48
-2020-04-19 18:14:11,799 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-19 18:14:11,833 INFO RPC interface 'supervisor' initialized
-2020-04-19 18:14:11,835 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-19 18:14:11,836 INFO supervisord started with pid 49
-2020-04-19 18:14:12,743 INFO spawned: 'rabbitmq_ram_2' with pid 51
-2020-04-19 18:14:12,751 INFO spawned: 'rabbitmq_ram_2_ext' with pid 52
-2020-04-19 18:14:12,843 INFO spawned: 'rabbitmq_ram_1' with pid 52
-2020-04-19 18:14:12,880 INFO spawned: 'rabbitmq_ram_1_ext' with pid 84
-2020-04-19 18:14:13,794 INFO success: rabbitmq_ram_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:13,794 INFO success: rabbitmq_ram_2_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:13,955 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:13,955 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:15,565 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:14:16,570 INFO spawned: 'rabbitmq_disk_node_ext' with pid 683
-2020-04-19 18:14:17,604 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:35,318 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:14:36,327 INFO spawned: 'rabbitmq_disk_node_ext' with pid 941
-2020-04-19 18:14:37,389 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:14:53,849 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:14:54,862 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1199
-2020-04-19 18:14:55,910 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:15:12,382 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-19 18:15:13,388 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1457
-2020-04-19 18:15:14,491 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-19 18:15:17,807 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-19 18:16:42,191 INFO exited: rabbitmq_ram_2_ext (exit status 0; expected)
-2020-04-19 18:16:53,948 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-26 02:18:32,512 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 02:18:32,830 INFO RPC interface 'supervisor' initialized
-2020-04-26 02:18:32,831 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 02:18:32,831 INFO supervisord started with pid 11
-2020-04-26 02:18:33,838 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-26 02:18:33,842 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-26 02:18:35,155 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:18:35,156 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:18:47,179 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 02:18:47,184 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 02:18:47,494 INFO RPC interface 'supervisor' initialized
-2020-04-26 02:18:47,496 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 02:18:47,496 INFO RPC interface 'supervisor' initialized
-2020-04-26 02:18:47,497 INFO supervisord started with pid 50
-2020-04-26 02:18:47,497 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 02:18:47,499 INFO supervisord started with pid 50
-2020-04-26 02:18:48,503 INFO spawned: 'rabbitmq_ram_1' with pid 53
-2020-04-26 02:18:48,505 INFO spawned: 'rabbitmq_ram_2' with pid 53
-2020-04-26 02:18:48,513 INFO spawned: 'rabbitmq_ram_1_ext' with pid 54
-2020-04-26 02:18:48,515 INFO spawned: 'rabbitmq_ram_2_ext' with pid 54
-2020-04-26 02:18:49,575 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:18:49,576 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:18:49,581 INFO success: rabbitmq_ram_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:18:49,585 INFO success: rabbitmq_ram_2_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:18:53,180 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 02:18:53,196 INFO spawned: 'rabbitmq_disk_node_ext' with pid 687
-2020-04-26 02:18:54,239 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:19:10,272 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 02:19:11,277 INFO spawned: 'rabbitmq_disk_node_ext' with pid 945
-2020-04-26 02:19:12,307 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:19:28,260 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 02:19:28,265 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1203
-2020-04-26 02:19:29,290 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 02:19:34,247 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-26 02:21:02,842 INFO exited: rabbitmq_ram_2_ext (exit status 0; expected)
-2020-04-26 02:21:12,062 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-26 03:05:22,920 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 03:05:22,927 INFO RPC interface 'supervisor' initialized
-2020-04-26 03:05:22,927 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 03:05:22,929 INFO supervisord started with pid 9
-2020-04-26 03:05:23,936 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-26 03:05:23,943 INFO spawned: 'rabbitmq_disk_node' with pid 16
-2020-04-26 03:05:25,922 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 03:05:25,922 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 03:05:38,506 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 03:05:38,510 INFO RPC interface 'supervisor' initialized
-2020-04-26 03:05:38,511 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 03:05:38,511 INFO supervisord started with pid 48
-2020-04-26 03:05:38,528 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 03:05:38,532 INFO RPC interface 'supervisor' initialized
-2020-04-26 03:05:38,533 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 03:05:38,533 INFO supervisord started with pid 48
-2020-04-26 03:05:39,518 INFO spawned: 'rabbitmq_ram_1' with pid 51
-2020-04-26 03:05:39,525 INFO spawned: 'rabbitmq_ram_1_ext' with pid 53
-2020-04-26 03:05:39,555 INFO spawned: 'rabbitmq_ram_2' with pid 51
-2020-04-26 03:05:39,559 INFO spawned: 'rabbitmq_ram_2_ext' with pid 52
-2020-04-26 03:05:40,741 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 03:05:41,745 INFO spawned: 'rabbitmq_disk_node_ext' with pid 663
-2020-04-26 03:05:42,758 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:19,799 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 08:48:19,802 INFO RPC interface 'supervisor' initialized
-2020-04-26 08:48:19,821 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 08:48:19,822 INFO supervisord started with pid 9
-2020-04-26 08:48:20,894 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
-2020-04-26 08:48:20,902 INFO spawned: 'rabbitmq_disk_node' with pid 18
-2020-04-26 08:48:22,838 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:22,839 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:35,550 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 08:48:35,553 INFO RPC interface 'supervisor' initialized
-2020-04-26 08:48:35,554 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 08:48:35,555 INFO supervisord started with pid 48
-2020-04-26 08:48:35,617 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 08:48:35,620 INFO RPC interface 'supervisor' initialized
-2020-04-26 08:48:35,621 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 08:48:35,621 INFO supervisord started with pid 48
-2020-04-26 08:48:36,575 INFO spawned: 'rabbitmq_ram_1' with pid 51
-2020-04-26 08:48:36,579 INFO spawned: 'rabbitmq_ram_1_ext' with pid 52
-2020-04-26 08:48:36,625 INFO spawned: 'rabbitmq_ram_2' with pid 51
-2020-04-26 08:48:36,629 INFO spawned: 'rabbitmq_ram_2_ext' with pid 52
-2020-04-26 08:48:37,604 INFO success: rabbitmq_ram_1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:37,604 INFO success: rabbitmq_ram_1_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:37,688 INFO success: rabbitmq_ram_2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:37,688 INFO success: rabbitmq_ram_2_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:37,874 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 08:48:38,878 INFO spawned: 'rabbitmq_disk_node_ext' with pid 661
-2020-04-26 08:48:39,890 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:48:56,356 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 08:48:57,367 INFO spawned: 'rabbitmq_disk_node_ext' with pid 913
-2020-04-26 08:48:58,389 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 08:49:14,572 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
-2020-04-26 08:50:42,078 INFO exited: rabbitmq_ram_1_ext (exit status 0; expected)
-2020-04-26 08:50:43,446 INFO exited: rabbitmq_ram_2_ext (exit status 0; expected)
-2020-04-26 10:02:57,924 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
-2020-04-26 10:02:57,930 INFO RPC interface 'supervisor' initialized
-2020-04-26 10:02:57,931 CRIT Server 'unix_http_server' running without any HTTP authentication checking
-2020-04-26 10:02:57,931 INFO supervisord started with pid 11
-2020-04-26 10:02:58,939 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
-2020-04-26 10:02:58,944 INFO spawned: 'rabbitmq_disk_node' with pid 15
-2020-04-26 10:03:00,904 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 10:03:00,904 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 10:03:15,075 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 10:03:16,079 INFO spawned: 'rabbitmq_disk_node_ext' with pid 687
-2020-04-26 10:03:17,093 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 10:03:32,553 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
-2020-04-26 10:03:33,557 INFO spawned: 'rabbitmq_disk_node_ext' with pid 951
-2020-04-26 10:03:34,574 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
-2020-04-26 10:03:43,415 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
+2020-04-28 17:55:08,200 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-04-28 17:55:08,507 INFO RPC interface 'supervisor' initialized
+2020-04-28 17:55:08,508 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-04-28 17:55:08,509 INFO supervisord started with pid 11
+2020-04-28 17:55:09,524 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
+2020-04-28 17:55:09,534 INFO spawned: 'rabbitmq_disk_node' with pid 20
+2020-04-28 17:55:10,588 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 17:55:10,589 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 17:55:39,338 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
+2020-04-28 17:55:40,352 INFO spawned: 'rabbitmq_disk_node_ext' with pid 700
+2020-04-28 17:55:41,373 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 17:55:57,778 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
+2020-04-28 17:55:58,783 INFO spawned: 'rabbitmq_disk_node_ext' with pid 964
+2020-04-28 17:55:59,826 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 17:56:15,477 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
+2020-04-28 17:56:16,481 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1228
+2020-04-28 17:56:17,500 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 17:56:49,431 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
+2020-04-28 18:03:07,505 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-04-28 18:03:07,813 INFO RPC interface 'supervisor' initialized
+2020-04-28 18:03:07,814 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-04-28 18:03:07,815 INFO supervisord started with pid 11
+2020-04-28 18:03:08,824 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
+2020-04-28 18:03:08,829 INFO spawned: 'rabbitmq_disk_node' with pid 15
+2020-04-28 18:03:09,837 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:03:09,838 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:03:42,519 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:03:43,530 INFO spawned: 'rabbitmq_disk_node_ext' with pid 701
+2020-04-28 18:03:44,552 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:04:00,215 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
+2020-04-28 18:04:01,219 INFO spawned: 'rabbitmq_disk_node_ext' with pid 965
+2020-04-28 18:04:02,240 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:04:32,057 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
+2020-04-28 18:07:41,325 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-04-28 18:07:41,329 INFO RPC interface 'supervisor' initialized
+2020-04-28 18:07:41,330 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-04-28 18:07:41,331 INFO supervisord started with pid 13
+2020-04-28 18:07:42,341 INFO spawned: 'rabbitmq_disk_node_ext' with pid 16
+2020-04-28 18:07:42,348 INFO spawned: 'rabbitmq_disk_node' with pid 19
+2020-04-28 18:07:43,432 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:43,433 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:43,762 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:44,774 INFO spawned: 'rabbitmq_disk_node' with pid 302
+2020-04-28 18:07:45,962 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:45,978 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:46,988 INFO spawned: 'rabbitmq_disk_node' with pid 549
+2020-04-28 18:07:48,107 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:48,122 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:49,133 INFO spawned: 'rabbitmq_disk_node' with pid 796
+2020-04-28 18:07:50,264 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:50,281 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:51,291 INFO spawned: 'rabbitmq_disk_node' with pid 1043
+2020-04-28 18:07:52,407 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:52,426 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:53,432 INFO spawned: 'rabbitmq_disk_node' with pid 1292
+2020-04-28 18:07:54,571 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:54,584 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:55,589 INFO spawned: 'rabbitmq_disk_node' with pid 1539
+2020-04-28 18:07:56,805 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:56,823 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:07:57,364 INFO spawned: 'rabbitmq_disk_node' with pid 1786
+2020-04-28 18:07:58,823 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:07:58,842 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:07:58,856 INFO spawned: 'rabbitmq_disk_node_ext' with pid 2121
+2020-04-28 18:07:59,151 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:00,155 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:00,160 INFO spawned: 'rabbitmq_disk_node' with pid 2265
+2020-04-28 18:08:01,326 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:01,342 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:02,351 INFO spawned: 'rabbitmq_disk_node' with pid 2512
+2020-04-28 18:08:03,468 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:03,482 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:04,501 INFO spawned: 'rabbitmq_disk_node' with pid 2759
+2020-04-28 18:08:05,622 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:05,635 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:06,642 INFO spawned: 'rabbitmq_disk_node' with pid 3006
+2020-04-28 18:08:07,973 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:07,991 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:08,997 INFO spawned: 'rabbitmq_disk_node' with pid 3255
+2020-04-28 18:08:10,122 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:10,136 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:11,154 INFO spawned: 'rabbitmq_disk_node' with pid 3502
+2020-04-28 18:08:12,297 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:12,312 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:13,333 INFO spawned: 'rabbitmq_disk_node' with pid 3749
+2020-04-28 18:08:14,439 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:15,145 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:15,187 INFO spawned: 'rabbitmq_disk_node' with pid 4216
+2020-04-28 18:08:15,203 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:08:15,218 INFO spawned: 'rabbitmq_disk_node_ext' with pid 4248
+2020-04-28 18:08:16,336 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:16,336 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:16,351 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:17,366 INFO spawned: 'rabbitmq_disk_node' with pid 4475
+2020-04-28 18:08:18,504 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:18,521 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:19,533 INFO spawned: 'rabbitmq_disk_node' with pid 4722
+2020-04-28 18:08:20,720 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:20,734 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:21,741 INFO spawned: 'rabbitmq_disk_node' with pid 4969
+2020-04-28 18:08:22,893 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:22,908 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:23,919 INFO spawned: 'rabbitmq_disk_node' with pid 5216
+2020-04-28 18:08:25,039 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:25,054 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:26,071 INFO spawned: 'rabbitmq_disk_node' with pid 5463
+2020-04-28 18:08:27,191 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:27,206 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:28,215 INFO spawned: 'rabbitmq_disk_node' with pid 5710
+2020-04-28 18:08:29,354 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:29,371 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:30,238 INFO spawned: 'rabbitmq_disk_node' with pid 5959
+2020-04-28 18:08:31,577 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:31,596 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:08:31,664 INFO spawned: 'rabbitmq_disk_node_ext' with pid 6293
+2020-04-28 18:08:31,951 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:32,954 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:32,959 INFO spawned: 'rabbitmq_disk_node' with pid 6438
+2020-04-28 18:08:34,077 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:34,093 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:35,103 INFO spawned: 'rabbitmq_disk_node' with pid 6685
+2020-04-28 18:08:36,219 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:36,233 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:37,242 INFO spawned: 'rabbitmq_disk_node' with pid 6932
+2020-04-28 18:08:38,381 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:38,397 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:39,406 INFO spawned: 'rabbitmq_disk_node' with pid 7179
+2020-04-28 18:08:40,585 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:40,599 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:41,608 INFO spawned: 'rabbitmq_disk_node' with pid 7426
+2020-04-28 18:08:42,825 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:42,841 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:43,851 INFO spawned: 'rabbitmq_disk_node' with pid 7675
+2020-04-28 18:08:45,119 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:45,138 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:46,149 INFO spawned: 'rabbitmq_disk_node' with pid 7922
+2020-04-28 18:08:47,300 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:47,755 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:48,114 INFO spawned: 'rabbitmq_disk_node' with pid 8389
+2020-04-28 18:08:48,134 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:08:48,148 INFO spawned: 'rabbitmq_disk_node_ext' with pid 8409
+2020-04-28 18:08:49,313 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:49,313 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:49,329 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:50,344 INFO spawned: 'rabbitmq_disk_node' with pid 8648
+2020-04-28 18:08:51,501 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:51,517 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:52,524 INFO spawned: 'rabbitmq_disk_node' with pid 8895
+2020-04-28 18:08:53,711 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:53,730 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:54,747 INFO spawned: 'rabbitmq_disk_node' with pid 9142
+2020-04-28 18:08:55,939 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:55,953 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:56,963 INFO spawned: 'rabbitmq_disk_node' with pid 9389
+2020-04-28 18:08:58,089 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:08:58,103 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:08:59,114 INFO spawned: 'rabbitmq_disk_node' with pid 9636
+2020-04-28 18:09:00,281 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:00,297 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:09:01,304 INFO spawned: 'rabbitmq_disk_node' with pid 9885
+2020-04-28 18:09:02,561 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:02,577 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:09:03,172 INFO spawned: 'rabbitmq_disk_node' with pid 10133
+2020-04-28 18:09:04,572 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:04,591 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:09:04,690 INFO spawned: 'rabbitmq_disk_node_ext' with pid 10467
+2020-04-28 18:09:05,009 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:09:06,014 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:06,018 INFO spawned: 'rabbitmq_disk_node' with pid 10611
+2020-04-28 18:09:07,235 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:07,250 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:09:08,258 INFO spawned: 'rabbitmq_disk_node' with pid 10858
+2020-04-28 18:09:09,372 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:09,385 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:09:10,395 INFO spawned: 'rabbitmq_disk_node' with pid 11105
+2020-04-28 18:09:11,512 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:11,875 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:09:12,888 INFO spawned: 'rabbitmq_disk_node' with pid 11354
+2020-04-28 18:09:14,008 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:09:14,022 INFO exited: rabbitmq_disk_node (exit status 64; not expected)
+2020-04-28 18:10:17,713 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-04-28 18:10:17,717 INFO RPC interface 'supervisor' initialized
+2020-04-28 18:10:17,718 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-04-28 18:10:17,719 INFO supervisord started with pid 9
+2020-04-28 18:10:18,739 INFO spawned: 'rabbitmq_disk_node_ext' with pid 12
+2020-04-28 18:10:18,747 INFO spawned: 'rabbitmq_disk_node' with pid 17
+2020-04-28 18:10:19,781 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:10:19,781 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:10:24,777 INFO exited: rabbitmq_disk_node (exit status 0; expected)
+2020-04-28 18:10:34,791 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:10:35,801 INFO spawned: 'rabbitmq_disk_node_ext' with pid 719
+2020-04-28 18:10:36,821 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:10:51,706 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:10:52,712 INFO spawned: 'rabbitmq_disk_node_ext' with pid 983
+2020-04-28 18:10:53,731 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:11:09,063 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:11:10,070 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1247
+2020-04-28 18:11:11,089 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:11:26,042 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:11:27,050 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1511
+2020-04-28 18:11:28,072 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:11:42,969 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:11:43,975 INFO spawned: 'rabbitmq_disk_node_ext' with pid 1775
+2020-04-28 18:11:44,992 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:11:59,898 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:12:00,908 INFO spawned: 'rabbitmq_disk_node_ext' with pid 2039
+2020-04-28 18:12:01,927 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:12:16,830 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:12:17,839 INFO spawned: 'rabbitmq_disk_node_ext' with pid 2303
+2020-04-28 18:12:18,858 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:12:33,756 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:12:34,768 INFO spawned: 'rabbitmq_disk_node_ext' with pid 2567
+2020-04-28 18:12:35,788 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:12:50,698 INFO exited: rabbitmq_disk_node_ext (exit status 69; not expected)
+2020-04-28 18:12:51,704 INFO spawned: 'rabbitmq_disk_node_ext' with pid 2831
+2020-04-28 18:12:52,722 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:13:02,300 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-04-28 18:13:02,304 INFO RPC interface 'supervisor' initialized
+2020-04-28 18:13:02,305 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-04-28 18:13:02,305 INFO supervisord started with pid 11
+2020-04-28 18:13:03,318 INFO spawned: 'rabbitmq_disk_node_ext' with pid 14
+2020-04-28 18:13:03,326 INFO spawned: 'rabbitmq_disk_node' with pid 18
+2020-04-28 18:13:04,357 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:13:04,357 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:13:35,264 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
+2020-04-28 18:13:36,271 INFO spawned: 'rabbitmq_disk_node_ext' with pid 723
+2020-04-28 18:13:37,287 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:13:52,838 INFO exited: rabbitmq_disk_node_ext (exit status 64; not expected)
+2020-04-28 18:13:53,842 INFO spawned: 'rabbitmq_disk_node_ext' with pid 987
+2020-04-28 18:13:54,860 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:14:21,530 INFO exited: rabbitmq_disk_node_ext (exit status 0; expected)
+2020-04-28 18:27:59,438 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-04-28 18:27:59,442 INFO RPC interface 'supervisor' initialized
+2020-04-28 18:27:59,443 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-04-28 18:27:59,444 INFO supervisord started with pid 12
+2020-04-28 18:28:00,455 INFO spawned: 'rabbitmq_disk_node_ext' with pid 15
+2020-04-28 18:28:00,458 INFO spawned: 'rabbitmq_disk_node' with pid 16
+2020-04-28 18:28:01,498 INFO success: rabbitmq_disk_node_ext entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-04-28 18:28:01,499 INFO success: rabbitmq_disk_node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

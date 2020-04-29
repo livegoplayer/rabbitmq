@@ -33,7 +33,7 @@ services:
          # rabbitmq 日志目录
         - RABBITMQ_LOG_BASE=/var/logs/rabbitmq_base_log
          # 配置文件
-        # - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
+        - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
 
       volumes:
         # 项目上层路径

@@ -1,127 +1,1243 @@
 wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 5 seconds
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application not running
+  * running applications on rabbit@rabbitmq_disk_node: [stdout_formatter,
+                                                        observer_cli,recon,
+                                                        jsx,inets,lager,
+                                                        goldrush,compiler,
+                                                        syntax_tools,sasl,
+                                                        stdlib,kernel]
+  * suggestion: use rabbitmqctl start_app on rabbit@rabbitmq_disk_node
+
+Current node details:
+ * node name: 'rabbitmqcli-474-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
 wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 10 seconds
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
 wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 7 seconds
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application running
+
+Current node details:
+ * node name: 'rabbitmqcli-1274-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application not running
+  * running applications on rabbit@rabbitmq_disk_node: [lager,goldrush,
+                                                        compiler,syntax_tools,
+                                                        sasl,stdlib,kernel]
+  * suggestion: use rabbitmqctl start_app on rabbit@rabbitmq_disk_node
+
+Current node details:
+ * node name: 'rabbitmqcli-474-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application not running
+  * running applications on rabbit@rabbitmq_disk_node: [stdout_formatter,
+                                                        observer_cli,recon,
+                                                        jsx,inets,lager,
+                                                        goldrush,compiler,
+                                                        syntax_tools,sasl,
+                                                        stdlib,kernel]
+  * suggestion: use rabbitmqctl start_app on rabbit@rabbitmq_disk_node
+
+Current node details:
+ * node name: 'rabbitmqcli-587-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application running
+
+Current node details:
+ * node name: 'rabbitmqcli-1011-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-1792-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1784-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-1792-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2007-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-3750-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-3860-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-3972-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-5965-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-5957-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-5965-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-6180-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-8033-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-8251-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-10130-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  other nodes on rabbitmq_disk_node: ['rabbitmqcli-10142-rabbit']
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-10353-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-495-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-607-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-759-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-871-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1023-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1135-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1287-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1399-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1551-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1663-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1815-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-1927-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2079-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2191-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2343-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2455-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2607-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * epmd reports: node 'rabbit' not running at all
+                  no other nodes on rabbitmq_disk_node
+  * suggestion: start the node
+
+Current node details:
+ * node name: 'rabbitmqcli-2719-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
+
+Most common reasons for this are:
+
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application not running
+  * running applications on rabbit@rabbitmq_disk_node: [sysmon_handler,os_mon,
+                                                        asn1,observer_cli,jsx,
+                                                        recon,
+                                                        gen_batch_server,
+                                                        tools,xmerl,lager,
+                                                        goldrush,compiler,
+                                                        syntax_tools,sasl,
+                                                        stdlib,kernel]
+  * suggestion: use rabbitmqctl start_app on rabbit@rabbitmq_disk_node
+
+Current node details:
+ * node name: 'rabbitmqcli-497-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 Error:
 User "admin" already exists
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 5 seconds
-Error:
-User "admin" already exists
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 5 seconds
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-Error:
-User "admin" already exists
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 7 seconds
-Error:
-User "admin" already exists
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 12 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PID_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PID_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 8 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PID_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-         Removing trailing slash from RABBITMQ_MNESIA_DIR
-WARNING: RABBITMQ_CONFIG_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_LOG_BASE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PID_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_FEATURE_FLAGS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_EXPAND_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_ENABLED_PLUGINS_FILE is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_PLUGINS_DIR is located inside RABBITMQ_MNESIA_DIR
-         RABBITMQ_UPGRADE_LOG is located inside RABBITMQ_MNESIA_DIR
-         => Auto-clustering will not work ('cluster_nodes' in rabbitmq.config)
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 6 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 wait-for-it.sh: waiting 15 seconds for localhost:5672
 wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
+Error: unable to perform an operation on node 'rabbit@rabbitmq_disk_node'. Please see diagnostics information and suggestions below.
 
-[1mUsage[0m
+Most common reasons for this are:
 
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+ * Target node is unreachable (e.g. due to hostname resolution, TCP connection or firewall issues)
+ * CLI tool fails to authenticate with the server (e.g. due to CLI tool's Erlang cookie not matching that of the server)
+ * Target node is not running
+
+In addition to the diagnostics info below:
+
+ * See the CLI, clustering and networking guides on https://rabbitmq.com/documentation.html to learn more
+ * Consult server logs on node rabbit@rabbitmq_disk_node
+ * If target node is configured to use long node names, don't forget to use --longnames with CLI tools
+
+DIAGNOSTICS
+===========
+
+attempted to contact: [rabbit@rabbitmq_disk_node]
+
+rabbit@rabbitmq_disk_node:
+  * connected to epmd (port 4369) on rabbitmq_disk_node
+  * node rabbit@rabbitmq_disk_node up, 'rabbit' application not running
+  * running applications on rabbit@rabbitmq_disk_node: [lager,goldrush,
+                                                        compiler,syntax_tools,
+                                                        sasl,stdlib,kernel]
+  * suggestion: use rabbitmqctl start_app on rabbit@rabbitmq_disk_node
+
+Current node details:
+ * node name: 'rabbitmqcli-500-rabbit@rabbitmq_disk_node'
+ * effective user's home directory: /var/lib/rabbitmq
+ * Erlang cookie hash: keneWpZlYgHDlNkbw+X2vg==
+
 WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
 Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
 Arguments given:
@@ -130,360 +1246,3 @@ Arguments given:
 [1mUsage[0m
 
 rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 2 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 7 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 2 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 4 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	add_user admin admin
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
-Arguments given:
-	set_user_tags admin administrator
-
-[1mUsage[0m
-
-rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
-wait-for-it.sh: waiting 15 seconds for localhost:5672
-wait-for-it.sh: localhost:5672 is available after 9 seconds
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
-Error:
-User "admin" already exists
-WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
