@@ -1,339 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/advanced.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/rabbitmq.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-feature_flags" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_auth_mechanisms.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_channel.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_channel_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_channel_sup_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_channels_manager.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_client.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_client.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_connection.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_connection_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_connection_type_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_direct_connection.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_direct_consumer.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_gen_connection.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_gen_consumer.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_main_reader.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_network_connection.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_rpc_client.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_rpc_server.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_selective_consumer.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_ssl.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_uri.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/amqp_util.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/dep_built" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/rabbit_routing_util.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/ebin/uri_parser.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/include/amqp_client.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/include/amqp_client_internal.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/include/amqp_gen_consumer_spec.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/amqp_client-3.8.3/include/rabbit_routing_prefixes.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_app.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_bstr.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_children.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_clear.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_clock.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_compress_h.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_constraints.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_handler.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_http.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_http2.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_loop.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_metrics_h.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_middleware.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_req.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_rest.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_router.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_static.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_stream.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_stream_h.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_sub_protocol.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_tls.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_tracer_h.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/cowboy_websocket.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowboy-2.6.1/ebin/dep_built" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_base64url.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_cookie.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_date.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_hpack.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_http.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_http2.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_http2_machine.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_http_hd.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_http_te.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_iolists.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_mimetypes.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_multipart.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_qs.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_spdy.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_sse.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_uri.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cow_ws.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/cowlib.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/ebin/dep_built" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/include/cow_inline.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/cowlib-2.7.0/include/cow_parse.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_app.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_cors.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_csp.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_db.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_db_cache.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_db_cache_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_dispatcher.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_extension.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_headers.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_hsts.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_load_definitions.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_reset_handler.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_stats.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_sup_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_util.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_aliveness_test.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_auth.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_binding.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_bindings.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_channel.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_channels.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_channels_vhost.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_cluster_name.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_connection.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_connection_channels.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_connections.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_connections_vhost.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_consumers.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_definitions.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_exchange.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_exchange_publish.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_exchanges.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_extensions.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_feature_flag_enable.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_feature_flags.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_global_parameter.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_global_parameters.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_healthchecks.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_limit.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_limits.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_login.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_node.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_node_memory.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_node_memory_ets.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_nodes.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_operator_policies.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_operator_policy.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_overview.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_parameter.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_parameters.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_permission.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_permissions.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_permissions_user.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_permissions_vhost.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_policies.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_policy.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_queue.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_queue_actions.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_queue_get.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_queue_purge.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_queues.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_rebalance_queues.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_redirect.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_reset.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_static.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_topic_permission.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_topic_permissions.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_topic_permissions_user.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_topic_permissions_vhost.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_user.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_users.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_users_bulk_delete.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_vhost.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_vhost_restart.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_vhosts.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbit_mgmt_wm_whoami.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/ebin/rabbitmq_management.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/include/rabbit_mgmt.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/schema/rabbitmq_management.schema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/api/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/cli/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/cli/rabbitmqadmin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/css/evil.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/bg-binary.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/bg-green-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/bg-red-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/bg-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/bg-yellow-dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/collapse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/expand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/rabbitmqlogo-master-copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/img/rabbitmqlogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/base64.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/dispatcher.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/ejs-1.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/ejs-1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/excanvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/formatters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/jquery.flot-0.8.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/jquery.flot-0.8.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/jquery.flot-0.8.1.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/jquery.flot-0.8.1.time.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/json2-2016.10.28.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/prefs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/sammy-0.7.6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/sammy-0.7.6.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/singular/client_frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/singular/postaccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/singular/postauth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/singular/rpFrame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/singular/singular.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/singular/singular.umd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/add-binding.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/binary.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/bindings.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/channel.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/channels-list.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/channels.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/cluster-name.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/columns-options.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/connection.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/connections.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/consumers.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/exchange.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/exchanges.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/feature-flags.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/layout.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/limits.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/list-exchanges.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/login_uaa.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/memory-bar.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/memory-table.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/memory.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/messages.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/msg-detail-deliveries.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/msg-detail-publishes.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/node.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/overview.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/partition.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/permissions.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/policies.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/policy.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/popup.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/publish.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/queue.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/queues.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/rate-options.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/registry.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/status.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/topic-permissions.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/user.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/users.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/vhost.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management-3.8.3/priv/www/js/tmpl/vhosts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/Elixir.RabbitMQ.CLI.Ctl.Commands.ResetStatsDbCommand.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/dep_built" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/exometer_slide.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_agent_app.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_agent_config.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_agent_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_agent_sup_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_data.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_data_compat.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_db_handler.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_external_stats.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_ff.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_format.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_gc.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_metrics_collector.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_metrics_gc.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbit_mgmt_storage.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/ebin/rabbitmq_management_agent.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/include/rabbit_mgmt_metrics.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/include/rabbit_mgmt_records.hrl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_management_agent-3.8.3/priv/schema/rabbitmq_management_agent.schema" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/dep_built" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_cowboy_middleware.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_cowboy_redirect.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_cowboy_stream_h.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_web_dispatch.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_web_dispatch_app.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_web_dispatch_listing_handler.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_web_dispatch_registry.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_web_dispatch_sup.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbit_web_dispatch_util.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/rabbitmq_web_dispatch.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/webmachine_log.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node-plugins-expand/rabbitmq_web_dispatch-3.8.3/ebin/webmachine_log_handler.beam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node.pid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/DECISION_TAB.LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/LATEST.LOG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/cluster_nodes.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/.vhost" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent/0.rdq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/msg_store_transient/0.rdq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L/recovery.dets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/nodes_running_at_shutdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/quorum/rabbit@rabbitmq_disk_node/00000010.wal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/quorum/rabbit@rabbitmq_disk_node/meta.dets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/quorum/rabbit@rabbitmq_disk_node/names.dets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_durable_exchange.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_durable_queue.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_durable_route.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_runtime_parameters.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_serial" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_topic_permission.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_user.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_user_permission.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/rabbit_vhost.DCD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/schema.DAT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rabbit@rabbitmq_disk_node/schema_version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/rabbitmq_base_log/erl_crash.dump" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/rabbitmq_base_log/log/crash.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/rabbitmq_base_log/rabbit@rabbitmq_disk_node_upgrade.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_ext_stderr.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_ext_stderr.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_ext_stdout.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_ext_stdout.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_stderr.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_stderr.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_stdout.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisor_rabbitmq_disk_node_stdout.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ext_stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ext_stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_1_ext_stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_1_ext_stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_1_stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_1_stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_2_ext_stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_2_ext_stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_2_stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_ram_2_stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_stderr.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisor_rabbitmq_stdout.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/supervisord.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/supervisord.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sh/rabbitmq_base_disk_node_host_ext.sh" beforeDir="false" afterPath="$PROJECT_DIR$/sh/rabbitmq_base_disk_node_host_ext.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisor/conf.d/supervisord_dist_node_main.conf" beforeDir="false" afterPath="$PROJECT_DIR$/supervisor/conf.d/supervisord_dist_node_main.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisor/conf.d/supervisord_ram_1_node_main.conf" beforeDir="false" afterPath="$PROJECT_DIR$/supervisor/conf.d/supervisord_ram_1_node_main.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisor/conf.d/supervisord_ram_2_node_main.conf" beforeDir="false" afterPath="$PROJECT_DIR$/supervisor/conf.d/supervisord_ram_2_node_main.conf" afterDir="false" />
-    </list>
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,7 +65,7 @@
       <workItem from="1587957956298" duration="8819000" />
       <workItem from="1588040150597" duration="6201000" />
       <workItem from="1588134863418" duration="2935000" />
-      <workItem from="1588149720975" duration="6435000" />
+      <workItem from="1588149720975" duration="6545000" />
     </task>
     <task id="LOCAL-00001" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
       <created>1587870442325</created>
@@ -441,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587954159677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <created>1588156922450</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588156922450</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,10 +163,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1588156852947">
+    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1588156921559">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1588156852947" />
+    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1588156921559" />
     <state x="105" y="65" key="DiffContextDialog" timestamp="1587871261278">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -500,6 +175,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1588137362397" />
+    <state x="456" y="127" key="RollbackChangesDialog" timestamp="1588156899624">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="456" y="127" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1588156899624" />
     <state x="270" y="59" key="SettingsEditor" timestamp="1587958034923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -508,10 +187,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="614" y="333" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1587954140729" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1588156827819">
+    <state x="344" y="202" key="Vcs.Push.Dialog.v2" timestamp="1588156925715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1588156827819" />
+    <state x="344" y="202" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1588156925715" />
     <state x="469" y="208" key="git4idea.merge.GitPullDialog" timestamp="1587877066977">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

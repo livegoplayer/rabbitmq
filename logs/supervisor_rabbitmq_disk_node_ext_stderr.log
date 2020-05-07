@@ -1246,3 +1246,40 @@ Arguments given:
 [1mUsage[0m
 
 rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: waiting 15 seconds for localhost:5672
+wait-for-it.sh: timeout occurred after waiting 15 seconds for localhost:5672
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	add_user admin admin
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] add_user <username> <password>
+WARNING: Removing trailing slash from RABBITMQ_MNESIA_BASE
+Error: this command requires the 'rabbit' app to be running on the target node. Start it with 'rabbitmqctl start_app'.
+Arguments given:
+	set_user_tags admin administrator
+
+[1mUsage[0m
+
+rabbitmqctl [--node <node>] [--longnames] [--quiet] set_user_tags <username> <tag> [...]
