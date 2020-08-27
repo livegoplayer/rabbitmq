@@ -46,7 +46,6 @@ COPY ./config/*.conf /etc/rabbitmq/
 
 # 拷贝基本的sh文件进去
 COPY ./sh /tmp
-COPY ./wait-for-it/wait-for-it.sh /tmp/wait-for-it.sh
 COPY ./supervisor/sh /tmp
 RUN sed -i -e 's/\r$//' /tmp/*.sh
 RUN chmod +x /tmp/*.sh

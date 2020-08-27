@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/advanced.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/advanced.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/rabbitmq.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/rabbitmq.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +32,9 @@
   </component>
   <component name="GOROOT" path="E:/softwares/go" />
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1b3nxSi7pqgD1eoNDYM6Rv9Kogc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -169,43 +167,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
     <option name="LAST_COMMIT_MESSAGE" value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1588156852947">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598522489769">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1588156852947" />
-    <state x="105" y="65" key="DiffContextDialog" timestamp="1587871261278">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598522489769" />
+    <state x="129" y="56" key="DiffContextDialog" timestamp="1598522493170">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="105" y="65" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1587871261278" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1588137362397">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522493170" />
+    <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog" timestamp="1598522628931">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1588137362397" />
-    <state x="270" y="59" key="SettingsEditor" timestamp="1587958034923">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522628931" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598522494047">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1587958034923" />
-    <state x="614" y="333" key="VCS.ChangelistChooser" timestamp="1587954140729">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="614" y="333" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1587954140729" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1588156827819">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1588156827819" />
-    <state x="469" y="208" key="git4idea.merge.GitPullDialog" timestamp="1587877066977">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="469" y="208" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1587877066977" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1587954927042">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1587954927042" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1588137358703">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1588137358703" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598522494047" />
   </component>
 </project>
