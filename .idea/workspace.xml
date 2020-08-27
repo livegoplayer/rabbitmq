@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/advanced.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/advanced.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/rabbitmq.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/rabbitmq.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +35,7 @@
       <executable />
     </execution>
   </component>
+  <component name="GOROOT" path="E:/softwares/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -19,12 +43,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -35,18 +61,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,7 +79,7 @@
       <workItem from="1587957956298" duration="8819000" />
       <workItem from="1588040150597" duration="6201000" />
       <workItem from="1588134863418" duration="2935000" />
-      <workItem from="1588149720975" duration="6545000" />
+      <workItem from="1588149720975" duration="6435000" />
     </task>
     <task id="LOCAL-00001" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
       <created>1587870442325</created>
@@ -109,18 +123,11 @@
       <option name="project" value="LOCAL" />
       <updated>1587954159677</updated>
     </task>
-    <task id="LOCAL-00007" summary="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
-      <created>1588156922450</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1588156922450</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -152,21 +159,22 @@
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
     <option name="LAST_COMMIT_MESSAGE" value="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1588156921559">
+    <state x="305" y="9" key="CommitChangelistDialog2" timestamp="1588156852947">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1588156921559" />
+    <state x="305" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1588156852947" />
     <state x="105" y="65" key="DiffContextDialog" timestamp="1587871261278">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -175,10 +183,6 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1588137362397" />
-    <state x="456" y="127" key="RollbackChangesDialog" timestamp="1588156899624">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="456" y="127" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1588156899624" />
     <state x="270" y="59" key="SettingsEditor" timestamp="1587958034923">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -187,10 +191,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="614" y="333" key="VCS.ChangelistChooser/0.0.1536.834@0.0.1536.834" timestamp="1587954140729" />
-    <state x="344" y="202" key="Vcs.Push.Dialog.v2" timestamp="1588156925715">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1588156827819">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="344" y="202" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1588156925715" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1588156827819" />
     <state x="469" y="208" key="git4idea.merge.GitPullDialog" timestamp="1587877066977">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

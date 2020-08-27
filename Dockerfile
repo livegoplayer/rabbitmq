@@ -28,8 +28,9 @@ RUN apt-get -qq update && \
 
 #ADD-SUPERVISOR
 # install Supervisor config
-RUN pip2 install supervisor && \
-    pip2 install supervisor-stdout
+COPY ./whl/*.* /tmp/
+RUN pip2 install /tmp/supervisor-4.2.0-py2.py3-none-any.whl && \
+    pip2 install /tmp/supervisor-stdout-0.1.1.tar.gz
 
 #创建日志目录
 RUN mkdir /var/logs/

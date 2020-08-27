@@ -13,8 +13,6 @@ services:
         - "5672:5672"   #客户端连接的网络接口
 
       environment:
-         # 集群通信cookie 集群通信的标识 
-        - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
          # 节点名称
         - RABBITMQ_NODENAME=rabbit@rabbitmq_disk_node
          # 设置数据持久化目录
@@ -34,47 +32,68 @@ services:
         - RABBITMQ_LOG_BASE=/var/logs/rabbitmq_base_log
          # 配置文件
         - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
-
+        # 节点端口
+        - RABBITMQ_NODE_PORT=5672
       volumes:
         # 项目上层路径
         # - ../:/apps
         # 日志存放路径
-        - ./logs:/var/logs
+        - ./logs/rabbitmq_disk_node:/var/logs
         # 持久化路径 $RABBITMQ_MNESIA_DIR
-        - ./data:/var/lib/rabbitmq/mnesia
+        - ./data/rabbitmq_disk_node:/var/lib/rabbitmq/mnesia
+        #cookie
+        - ./cookie/.erlang.cookie:/opt/rabbitmq/.erlang.cookie
       command: /tmp/supervisord_dist_node_main.sh
+      #启动之后请手动运行 /tmp/rabbitmq_base_disk_node_host_ext.sh
 
-    # rabbitmq_ram_1_node:
-    #   build: ./
-    #   # 这个主机作为内存节点
-    #   hostname: rabbitmq_ram_1_node_host
-    #   container_name: rabbitmq_ram_1_node_container
-    #   restart: always
+    rabbitmq_ram_1_node:
+      build: ./
+      # 这个主机作为内存节点
+      hostname: rabbitmq_ram_1_node_host
+      container_name: rabbitmq_ram_1_node_container
+      restart: always
 
-    #   # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
-    #   depends_on:
-    #     - rabbitmq_disk_node
-    #   ports:
-    #     # - "15673:15672"   # web管理端口
-    #     - "5673:5672"   #客户端连接的网络接口
-    #   volumes:
-    #     # 项目上层路径
-    #     # - ../:/apps
-    #     # superiored 日志存放路径 
-    #     - ./logs:/var/logs
-    #     # rabbitmq 日志存放路径
-    #     - ./logs/rabbitmq_console_log:/var/logs/rabbitmq_console_log
-    #     # 持久化路径 $RABBITMQ_MNESIA_DIR
-    #     - ./data:/var/lib/rabbitmq/mnesia
-    #   environment:
-    #     # 集群通信cookie 集群通信的标识
-    #     - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
-    #     - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_1_node
-    #     # 设置数据持久化目录
-    #     - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
-    #     - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_1_node
-    #   # 确保这两个容器有先后启动顺序 
-    #   command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_1_node_main.sh
+      # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
+      depends_on:
+       - rabbitmq_disk_node
+      ports:
+       - "15673:15672"   # web管理端口
+       - "5673:5673"   #客户端连接的网络接口
+      volumes:
+       # 项目上层路径
+       # - ../:/apps
+       # superiored 日志存放路径
+       - ./logs/rabbitmq_ram_1_node:/var/logs
+       # 持久化路径 $RABBITMQ_MNESIA_DIR
+       - ./data/rabbitmq_ram_1_node:/var/lib/rabbitmq/mnesia
+       #cookie
+       - ./cookie/.erlang.cookie:/opt/rabbitmq/.erlang.cookie
+      environment:
+       # 集群通信cookie 集群通信的标识
+       - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_1_node
+       # 设置数据持久化目录
+       - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
+       - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_1_node
+        # 设置默认home位置，这个配置没有被列出来，可能以后升级版本之后会改变，如果出错考虑注释一下此行
+       - RABBITMQ_HOME=/opt/rabbitmq
+        # 设置插件的保存路径
+       - RABBITMQ_PLUGINS_DIR=/opt/rabbitmq/plugins
+        # 插件的解压目录
+       - RABBITMQ_PLUGINS_EXPAND_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_disk_node-plugins-expand
+        # console_log 控制台日志输出目录
+       - RABBITMQ_CONSOLE_LOG=/var/logs/rabbitmq_console_log
+        # rabbitmq 日志目录
+       - RABBITMQ_LOGS=/var/logs/rabbitmq_log
+        # rabbitmq 日志目录
+       - RABBITMQ_LOG_BASE=/var/logs/rabbitmq_base_log
+        # 配置文件
+       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
+        # 节点端口
+       - RABBITMQ_NODE_PORT=5673
+
+      # 确保这两个容器有先后启动顺序
+      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_1_node_main.sh
+      #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
 
     # rabbitmq_ram_2_node:
     #   build: ./
@@ -82,28 +101,40 @@ services:
     #   hostname: rabbitmq_ram_2_node_host
     #   container_name: rabbitmq_ram_2_node_container
     #   restart: always
-
     #   # 配置依赖项 必须在第1个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
     #   depends_on:
-    #      - rabbitmq_disk_node
+    #     - rabbitmq_disk_node
     #   ports:
-    #      # - "15674:15672"   # web管理端口
-    #      - "5674:5672"   #客户端连接的网络接口
+    #     # - "15674:15672"   # web管理端口
+    #     - "5674:5672"   #客户端连接的网络接口
 
-    #   # 为第一个容器设置别名, 可以在这个容器内部连接
-    #   volumes:
-    #     # 项目上层路径
-    #     # - ../:/apps
-    #     # 日志存放路径 
-    #     - ./logs:/var/logs
-    #     # 持久化路径 $RABBITMQ_MNESIA_DIR
-    #     - ./data:/var/lib/rabbitmq/mnesia
-    #   environment:
-    #     # 集群通信cookie 集群通信的标识
-    #     - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
-    #     - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_2_node
-    #     # 设置数据持久化目录
-    #     - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
-    #     - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_2_node
-
-    #   command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_2_node_main.sh
+#      # 为第一个容器设置别名, 可以在这个容器内部连接
+#      volumes:
+#       # 项目上层路径
+#       # - ../:/apps
+#       # 日志存放路径
+#       - ./logs/rabbitmq_ram_2_node:/var/logs
+#       # 持久化路径 $RABBITMQ_MNESIA_DIR
+#       - ./data/rabbitmq_ram_2_node:/var/lib/rabbitmq/mnesia
+#      environment:
+#       # 集群通信cookie 集群通信的标识
+#       - RABBITMQ_ERLANG_COOKIE='wilsoncookie1997'
+#       - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_2_node
+#       # 设置数据持久化目录
+#       - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
+#       - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_2_node
+#        # 设置默认home位置，这个配置没有被列出来，可能以后升级版本之后会改变，如果出错考虑注释一下此行
+#       - RABBITMQ_HOME=/opt/rabbitmq
+#        # 设置插件的保存路径
+#       - RABBITMQ_PLUGINS_DIR=/opt/rabbitmq/plugins
+#        # 插件的解压目录
+#       - RABBITMQ_PLUGINS_EXPAND_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_disk_node-plugins-expand
+#        # console_log 控制台日志输出目录
+#       - RABBITMQ_CONSOLE_LOG=/var/logs/rabbitmq_console_log
+#        # rabbitmq 日志目录
+#       - RABBITMQ_LOGS=/var/logs/rabbitmq_log
+#        # rabbitmq 日志目录
+#       - RABBITMQ_LOG_BASE=/var/logs/rabbitmq_base_log
+#        # 配置文件
+#       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
+#      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_2_node_main.sh

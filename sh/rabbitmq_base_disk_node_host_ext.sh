@@ -5,4 +5,4 @@
 rabbitmqctl add_user admin admin
 rabbitmqctl set_user_tags admin administrator
 
-sh # 执行进程，阻塞挂起
+# sh # 执行进程，阻塞挂起
