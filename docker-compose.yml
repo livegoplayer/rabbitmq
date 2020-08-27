@@ -11,6 +11,8 @@ services:
       ports:
         - "15672:15672"   # web管理端口
         - "5672:5672"   #客户端连接的网络接口
+        - "25672:25672"   #Erlang分发服务器端口
+        - "4369:4369"   #epmd守护进程
 
       environment:
          # 节点名称
@@ -34,6 +36,10 @@ services:
         - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
         # 节点端口
         - RABBITMQ_NODE_PORT=5672
+        # Erlang分发服务器端口
+        - RABBITMQ_DIST_PORT=25672
+        # epmd守护进程
+        - RABBITMQ_ERL_EPMD_PORT=4369
       volumes:
         # 项目上层路径
         # - ../:/apps
@@ -59,6 +65,8 @@ services:
       ports:
        - "15673:15672"   # web管理端口
        - "5673:5673"   #客户端连接的网络接口
+       - "25673:25673"   #Erlang分发服务器端口
+       - "4368:4368"   #epmd守护进程
       volumes:
        # 项目上层路径
        # - ../:/apps
@@ -90,9 +98,12 @@ services:
        - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
         # 节点端口
        - RABBITMQ_NODE_PORT=5673
-
+        # Erlang分发服务器端口
+       - RABBITMQ_DIST_PORT=25673
+        # epmd守护进程
+       - RABBITMQ_ERL_EPMD_PORT=4368
       # 确保这两个容器有先后启动顺序
-      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_1_node_main.sh
+      command: /tmp/wait-for-it.sh 127.0.0.1:15672 -- /tmp/supervisord_ram_1_node_main.sh
       #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
 
     # rabbitmq_ram_2_node:
