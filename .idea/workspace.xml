@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="删除运行目录，清空持久化文件，只保留副本在本地，github上面没必要保存">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/rabbitmq_ram_2_node/advanced.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/rabbitmq_ram_2_node/rabbitmq-env.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/rabbitmq_ram_2_node/rabbitmq.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh/rabbitmq_ram_2_node_host.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sh/rabbitmq_ram_2_node_host_ext.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisor/conf.d/supervisord_ram_2_node_main.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisor/sh/supervisord_ram_2_node_main.sh" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,14 +185,14 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598593190134">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598596322439">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598593190134" />
-    <state x="129" y="56" key="DiffContextDialog" timestamp="1598522493170">
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598596322439" />
+    <state x="129" y="56" key="DiffContextDialog" timestamp="1598593957711">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522493170" />
+    <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1598593957711" />
     <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1598591310488">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -191,9 +201,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522628931" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598593216924">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598596329596">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598593216924" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598596329596" />
   </component>
 </project>
