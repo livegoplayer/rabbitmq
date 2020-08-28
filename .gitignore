@@ -1,2 +1,4 @@
-/logs/
-/data/
+/logs/rabbitmq_disk_node
+/logs/rabbitmq_ram_1_node
+/data/rabbitmq_disk_node
+/data/rabbitmq_ram_1_node
