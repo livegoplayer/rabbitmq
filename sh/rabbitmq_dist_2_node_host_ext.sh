@@ -6,6 +6,6 @@ rabbitmqctl stop_app
 
 rabbitmqctl reset
 
-rabbitmqctl join_cluster --ram rabbit@rabbitmq_disk_node
+rabbitmqctl join_cluster --ram rabbitmq_disk_node
 
 rabbitmqctl start_app
