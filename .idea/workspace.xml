@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/advanced.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/rabbitmq.conf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +55,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/env" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +65,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Erlang External Tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\rabbitmq\env" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -173,10 +181,10 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598523458024">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598531924540">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598523458024" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598531924540" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1598522493170">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -185,9 +193,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522628931" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598523461865">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598531930220">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598523461865" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598531930220" />
   </component>
 </project>

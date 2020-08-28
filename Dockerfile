@@ -33,22 +33,24 @@ RUN pip2 install /tmp/supervisor-4.2.0-py2.py3-none-any.whl && \
     pip2 install /tmp/supervisor-stdout-0.1.1.tar.gz
 
 #创建日志目录
-RUN mkdir /var/logs/
+#RUN mkdir /var/logs/
 #rabbitmq 原生控制台输出日志目录
-RUN mkdir /var/logs/rabbitmq_console_log
+#RUN mkdir /var/logs/rabbitmq_console_log
 #rabbitmq 日志输出目录
-RUN mkdir /var/logs/rabbitmq_log
+#RUN mkdir /var/logs/rabbitmq_log
 #rabbitmq 默认日志输出目录，如果设置了上面那个，这个就不需要了
-RUN mkdir /var/logs/rabbitmq_base_log
-
-#拷贝配置文件目录
-COPY ./config/*.conf /etc/rabbitmq/
+#RUN mkdir /var/logs/rabbitmq_base_log
 
 # 拷贝基本的sh文件进去
 COPY ./sh /tmp
 COPY ./supervisor/sh /tmp
 RUN sed -i -e 's/\r$//' /tmp/*.sh
 RUN chmod +x /tmp/*.sh
+
+
+#cookie
+COPY ./cookie/.erlang.cookie /opt/rabbitmq/.erlang.cookie
+RUN chmod 400 /opt/rabbitmq/.erlang.cookie
 
 # 拷贝supervisor基本的conf文件进去
 RUN mkdir /etc/supervisor

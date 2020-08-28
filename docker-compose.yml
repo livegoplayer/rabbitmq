@@ -7,39 +7,16 @@ services:
       hostname: rabbitmq_base_disk_node_host
       container_name: rabbitmq_disk_node_container
       restart: always
-
       ports:
         - "15672:15672"   # web管理端口
         - "5672:5672"   #客户端连接的网络接口
         - "25672:25672"   #Erlang分发服务器端口
         - "4369:4369"   #epmd守护进程
-
       environment:
-         # 节点名称
-        - RABBITMQ_NODENAME=rabbit@rabbitmq_disk_node
-         # 设置数据持久化目录
-        - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
-        - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_disk_node
-         # 设置默认home位置，这个配置没有被列出来，可能以后升级版本之后会改变，如果出错考虑注释一下此行
-        - RABBITMQ_HOME=/opt/rabbitmq
-         # 设置插件的保存路径
-        - RABBITMQ_PLUGINS_DIR=/opt/rabbitmq/plugins
-         # 插件的解压目录
-        - RABBITMQ_PLUGINS_EXPAND_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_disk_node-plugins-expand
-         # console_log 控制台日志输出目录
-        - RABBITMQ_CONSOLE_LOG=/var/logs/rabbitmq_console_log
-         # rabbitmq 日志目录
-        - RABBITMQ_LOGS=/var/logs/rabbitmq_log
-         # rabbitmq 日志目录
-        - RABBITMQ_LOG_BASE=/var/logs/rabbitmq_base_log
          # 配置文件
         - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
-        # 节点端口
-        - RABBITMQ_NODE_PORT=5672
-        # Erlang分发服务器端口
-        - RABBITMQ_DIST_PORT=25672
-        # epmd守护进程
-        - RABBITMQ_ERL_EPMD_PORT=4369
+        - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
+        - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
       volumes:
         # 项目上层路径
         # - ../:/apps
@@ -47,8 +24,11 @@ services:
         - ./logs/rabbitmq_disk_node:/var/logs
         # 持久化路径 $RABBITMQ_MNESIA_DIR
         - ./data/rabbitmq_disk_node:/var/lib/rabbitmq/mnesia
-        #cookie
-        - ./cookie/.erlang.cookie:/opt/rabbitmq/.erlang.cookie
+        # 配置文件
+        - ./config/rabbitmq_disk_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+        - ./config/rabbitmq_disk_node/advanced.config:/etc/rabbitmq/advanced.config
+        # env 配置文件
+        - ./config/rabbitmq_disk_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
       command: /tmp/supervisord_dist_node_main.sh
       #启动之后请手动运行 /tmp/rabbitmq_base_disk_node_host_ext.sh
 
@@ -60,13 +40,17 @@ services:
       restart: always
 
       # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
-      depends_on:
-       - rabbitmq_disk_node
       ports:
-       - "15673:15672"   # web管理端口
+       - "15673:15673"   # web管理端口
        - "5673:5673"   #客户端连接的网络接口
        - "25673:25673"   #Erlang分发服务器端口
        - "4368:4368"   #epmd守护进程
+      environment:
+        # 配置文件
+       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
+       - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
+       - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
+       # 确保这两个容器有先后启动顺序
       volumes:
        # 项目上层路径
        # - ../:/apps
@@ -74,35 +58,11 @@ services:
        - ./logs/rabbitmq_ram_1_node:/var/logs
        # 持久化路径 $RABBITMQ_MNESIA_DIR
        - ./data/rabbitmq_ram_1_node:/var/lib/rabbitmq/mnesia
-       #cookie
-       - ./cookie/.erlang.cookie:/opt/rabbitmq/.erlang.cookie
-      environment:
-       # 集群通信cookie 集群通信的标识
-       - RABBITMQ_NODENAME=rabbit@rabbitmq_ram_1_node
-       # 设置数据持久化目录
-       - RABBITMQ_MNESIA_BASE=/var/lib/rabbitmq/mnesia/
-       - RABBITMQ_MNESIA_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_ram_1_node
-        # 设置默认home位置，这个配置没有被列出来，可能以后升级版本之后会改变，如果出错考虑注释一下此行
-       - RABBITMQ_HOME=/opt/rabbitmq
-        # 设置插件的保存路径
-       - RABBITMQ_PLUGINS_DIR=/opt/rabbitmq/plugins
-        # 插件的解压目录
-       - RABBITMQ_PLUGINS_EXPAND_DIR=/var/lib/rabbitmq/mnesia/rabbit@rabbitmq_disk_node-plugins-expand
-        # console_log 控制台日志输出目录
-       - RABBITMQ_CONSOLE_LOG=/var/logs/rabbitmq_console_log
-        # rabbitmq 日志目录
-       - RABBITMQ_LOGS=/var/logs/rabbitmq_log
-        # rabbitmq 日志目录
-       - RABBITMQ_LOG_BASE=/var/logs/rabbitmq_base_log
-        # 配置文件
-       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
-        # 节点端口
-       - RABBITMQ_NODE_PORT=5673
-        # Erlang分发服务器端口
-       - RABBITMQ_DIST_PORT=25673
-        # epmd守护进程
-       - RABBITMQ_ERL_EPMD_PORT=4368
-      # 确保这两个容器有先后启动顺序
+       # 配置文件
+       - ./config/rabbitmq_ram_1_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+       - ./config/rabbitmq_ram_1_node/advanced.config:/etc/rabbitmq/advanced.config
+       # env 配置文件
+       - ./config/rabbitmq_ram_1_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
       command: /tmp/wait-for-it.sh 127.0.0.1:15672 -- /tmp/supervisord_ram_1_node_main.sh
       #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
 
