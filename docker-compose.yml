@@ -7,7 +7,6 @@ services:
       hostname: rabbitmq_base_disk_node_host
       container_name: rabbitmq_disk_node_container
       extra_hosts:
-        - "rabbitmq_base_disk_node_host:139.224.132.234"
         - "rabbitmq_ram_1_node_host:139.224.132.234"
         - "rabbitmq_dist_2_node_host:104.224.139.179"
 
@@ -45,7 +44,6 @@ services:
       restart: always
       extra_hosts:
         - "rabbitmq_base_disk_node_host:139.224.132.234"
-        - "rabbitmq_ram_1_node_host:139.224.132.234"
         - "rabbitmq_dist_2_node_host:104.224.139.179"
 
       # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
@@ -84,7 +82,6 @@ services:
 #      extra_hosts:
 #        - "rabbitmq_base_disk_node_host:139.224.132.234"
 #        - "rabbitmq_ram_1_node_host:139.224.132.234"
-#        - "rabbitmq_dist_2_node_host:104.224.139.179"
 #
 #      # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
 #      ports:
