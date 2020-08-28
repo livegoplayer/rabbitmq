@@ -8,6 +8,7 @@ services:
       container_name: rabbitmq_disk_node_container
       extra_hosts:
         - "rabbitmq_dist_2_node:104.224.139.179"
+        - "rabbitmq_ram_1_node_host:139.224.132.234"
       restart: always
       ports:
         - "15672:15672"   # web管理端口
