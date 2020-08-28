@@ -73,7 +73,7 @@ services:
       container_name: rabbitmq_dist_2_node_container
       restart: always
       extra_hosts:
-       - "rabbit@rabbitmq_disk_node:139.224.132.234"
+       - "rabbitmq_disk_node:139.224.132.234"
 
       # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
       ports:
