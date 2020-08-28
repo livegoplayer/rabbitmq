@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +49,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/env" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -178,21 +175,25 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598531924540">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598591279680">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598531924540" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598591279680" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1598522493170">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522493170" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1598591310488">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598591310488" />
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog" timestamp="1598522628931">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522628931" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598531930220">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598591282982">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598531930220" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598591282982" />
   </component>
 </project>
