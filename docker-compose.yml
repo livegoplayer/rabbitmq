@@ -1,39 +1,39 @@
 version: '3'
 
 services:
-    rabbitmq_disk_node:
-      build: ./
-      # 这个主机作为磁盘节点
-      hostname: rabbitmq_base_disk_node_host
-      container_name: rabbitmq_disk_node_container
-      extra_hosts:
-        - "rabbitmq_dist_2_node_host:104.224.139.179"
-
-      restart: always
-      ports:
-        - "15672:15672"   # web管理端口
-        - "5672:5672"   #客户端连接的网络接口
-        - "25672:25672"   #Erlang分发服务器端口
-        - "4369:4369"   #epmd守护进程
-      environment:
-         # 配置文件
-        - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
-        - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
-        - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
-      volumes:
-        # 项目上层路径
-        # - ../:/apps
-        # 日志存放路径
-        - ./logs/rabbitmq_disk_node:/var/logs
-        # 持久化路径 $RABBITMQ_MNESIA_DIR
-        - ./data/rabbitmq_disk_node:/var/lib/rabbitmq/mnesia
-        # 配置文件
-        - ./config/rabbitmq_disk_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
-        - ./config/rabbitmq_disk_node/advanced.config:/etc/rabbitmq/advanced.config
-        # env 配置文件
-        - ./config/rabbitmq_disk_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
-      command: /tmp/supervisord_dist_node_main.sh
-      #启动之后请手动运行 /tmp/rabbitmq_base_disk_node_host_ext.sh
+#    rabbitmq_disk_node:
+#      build: ./
+#      # 这个主机作为磁盘节点
+#      hostname: rabbitmq_base_disk_node_host
+#      container_name: rabbitmq_disk_node_container
+#      extra_hosts:
+#        - "rabbitmq_dist_2_node_host:104.224.139.179"
+#
+#      restart: always
+#      ports:
+#        - "15672:15672"   # web管理端口
+#        - "5672:5672"   #客户端连接的网络接口
+#        - "25672:25672"   #Erlang分发服务器端口
+#        - "4369:4369"   #epmd守护进程
+#      environment:
+#         # 配置文件
+#        - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
+#        - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
+#        - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
+#      volumes:
+#        # 项目上层路径
+#        # - ../:/apps
+#        # 日志存放路径
+#        - ./logs/rabbitmq_disk_node:/var/logs
+#        # 持久化路径 $RABBITMQ_MNESIA_DIR
+#        - ./data/rabbitmq_disk_node:/var/lib/rabbitmq/mnesia
+#        # 配置文件
+#        - ./config/rabbitmq_disk_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+#        - ./config/rabbitmq_disk_node/advanced.config:/etc/rabbitmq/advanced.config
+#        # env 配置文件
+#        - ./config/rabbitmq_disk_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
+#      command: /tmp/supervisord_dist_node_main.sh
+#      #启动之后请手动运行 /tmp/rabbitmq_base_disk_node_host_ext.sh
 
 #    rabbitmq_ram_1_node:
 #      build: ./
