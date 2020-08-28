@@ -98,6 +98,6 @@ services:
        - ./config/rabbitmq_dist_2_node/advanced.config:/etc/rabbitmq/advanced.config
        # env 配置文件
        - ./config/rabbitmq_dist_2_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
-      command: /tmp/wait-for-it.sh 127.0.0.1:15672 -- /tmp/supervisord_dist_2_node_main.sh
+      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_dist_2_node_main.sh
       #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
 
