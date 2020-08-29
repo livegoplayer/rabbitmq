@@ -49,6 +49,7 @@ services:
        - "15673:15673"   # web管理端口
        - "5673:5673"   #客户端连接的网络接口
        - "25673:25673"   #Erlang分发服务器端口
+       - "4396:4396"   #Erlang分发服务器端口
       environment:
         # 配置文件
        - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq

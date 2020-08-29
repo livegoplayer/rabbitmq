@@ -52,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../consul" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -179,26 +179,26 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598633694311">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1598663894396">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598633694311" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1598663894396" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1598623684817">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1598623684817" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1598591310488">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1598672319441">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598591310488" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1598672319441" />
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog" timestamp="1598522628931">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522628931" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598633696833">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1598663897453">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598633696833" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1598663897453" />
     <state x="476" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598609993241">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
