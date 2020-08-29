@@ -35,59 +35,20 @@ services:
 #      command: /tmp/supervisord_dist_node_main.sh
 #      #启动之后请手动运行 /tmp/rabbitmq_base_disk_node_host_ext.sh
 
-#    rabbitmq_ram_1_node:
-#      build: ./
-#      # 这个主机作为内存节点
-#      hostname: rabbitmq_ram_1_node_host
-#      container_name: rabbitmq_ram_1_node_container
-#      restart: always
-#      extra_hosts:
-#        - "rabbitmq_base_disk_node_host:139.224.132.234"
-#        - "rabbitmq_dist_2_node_host:104.224.139.179"
-#
-#      # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
-#      ports:
-#       - "15673:15673"   # web管理端口
-#       - "5673:5673"   #客户端连接的网络接口
-#       - "25673:25673"   #Erlang分发服务器端口
-#      environment:
-#        # 配置文件
-#       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
-#       - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
-#       - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
-#       # 确保这两个容器有先后启动顺序
-#      volumes:
-#       # 项目上层路径
-#       # - ../:/apps
-#       # superiored 日志存放路径
-#       - ./logs/rabbitmq_ram_1_node:/var/logs
-#       # 持久化路径 $RABBITMQ_MNESIA_DIR
-#       - ./data/rabbitmq_ram_1_node:/var/lib/rabbitmq/mnesia
-#       # 配置文件
-#       - ./config/rabbitmq_ram_1_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
-#       - ./config/rabbitmq_ram_1_node/advanced.config:/etc/rabbitmq/advanced.config
-#       # env 配置文件
-#       - ./config/rabbitmq_ram_1_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
-#      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_1_node_main.sh
-#      #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
-
-
-    rabbitmq_dist_2_node:
+    rabbitmq_ram_1_node:
       build: ./
       # 这个主机作为内存节点
-      hostname: rabbitmq_dist_2_node_host
-      container_name: rabbitmq_dist_2_node_container
+      hostname: rabbitmq_ram_1_node_host
+      container_name: rabbitmq_ram_1_node_container
       restart: always
       extra_hosts:
         - "rabbitmq_base_disk_node_host:139.224.132.234"
-#        - "rabbitmq_ram_1_node_host:139.224.132.234"
 
       # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
       ports:
-       - "15674:15674"   # web管理端口
-       - "5674:5674"   #客户端连接的网络接口
-       - "25674:25674"   #Erlang分发服务器端口
-       - "4369:4369"    #epmd守护进程
+       - "15673:15673"   # web管理端口
+       - "5673:5673"   #客户端连接的网络接口
+       - "25673:25673"   #Erlang分发服务器端口
       environment:
         # 配置文件
        - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
@@ -98,14 +59,52 @@ services:
        # 项目上层路径
        # - ../:/apps
        # superiored 日志存放路径
-       - ./logs/rabbitmq_dist_2_node:/var/logs
+       - ./logs/rabbitmq_ram_1_node:/var/logs
        # 持久化路径 $RABBITMQ_MNESIA_DIR
-       - ./data/rabbitmq_dist_2_node:/var/lib/rabbitmq/mnesia
+       - ./data/rabbitmq_ram_1_node:/var/lib/rabbitmq/mnesia
        # 配置文件
-       - ./config/rabbitmq_dist_2_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
-       - ./config/rabbitmq_dist_2_node/advanced.config:/etc/rabbitmq/advanced.config
+       - ./config/rabbitmq_ram_1_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+       - ./config/rabbitmq_ram_1_node/advanced.config:/etc/rabbitmq/advanced.config
        # env 配置文件
-       - ./config/rabbitmq_dist_2_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
-      command: /tmp/supervisord_dist_2_node_main.sh
+       - ./config/rabbitmq_ram_1_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
+      command: /tmp/wait-for-it.sh rabbitmq_disk_node:15672 -- /tmp/supervisord_ram_1_node_main.sh
       #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
+
+
+#    rabbitmq_dist_2_node:
+#      build: ./
+#      # 这个主机作为内存节点
+#      hostname: rabbitmq_dist_2_node_host
+#      container_name: rabbitmq_dist_2_node_container
+#      restart: always
+#      extra_hosts:
+#        - "rabbitmq_base_disk_node_host:139.224.132.234"
+##        - "rabbitmq_ram_1_node_host:139.224.132.234"
+#
+#      # 配置依赖项 必须在第一个容器启动之后再启动，如果依赖容器没有启动，则先启动依赖容器
+#      ports:
+#       - "15674:15674"   # web管理端口
+#       - "5674:5674"   #客户端连接的网络接口
+#       - "25674:25674"   #Erlang分发服务器端口
+#       - "4369:4369"    #epmd守护进程
+#      environment:
+#        # 配置文件
+#       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
+#       - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
+#       - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
+#       # 确保这两个容器有先后启动顺序
+#      volumes:
+#       # 项目上层路径
+#       # - ../:/apps
+#       # superiored 日志存放路径
+#       - ./logs/rabbitmq_dist_2_node:/var/logs
+#       # 持久化路径 $RABBITMQ_MNESIA_DIR
+#       - ./data/rabbitmq_dist_2_node:/var/lib/rabbitmq/mnesia
+#       # 配置文件
+#       - ./config/rabbitmq_dist_2_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+#       - ./config/rabbitmq_dist_2_node/advanced.config:/etc/rabbitmq/advanced.config
+#       # env 配置文件
+#       - ./config/rabbitmq_dist_2_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
+#      command: /tmp/supervisord_dist_2_node_main.sh
+#      #启动之后请手动运行 /tmp/rabbitmq_ram_1_node_host_ext.sh
 
