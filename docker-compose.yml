@@ -18,7 +18,7 @@ services:
       environment:
          # 配置文件
         - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
-        - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced
+        - RABBITMQ_ADVANCED_CONFIG_FILE=/etc/rabbitmq/advanced.config
         - RABBITMQ_CONF_ENV_FILE=/etc/rabbitmq/rabbitmq-env.conf
         - SERVICE_NAME=rabbitmq_base_disk_node_host
         - SERVICE_TAGS=rabbitmq1,tcp,5672
@@ -33,6 +33,7 @@ services:
         # 配置文件
         - ./config/rabbitmq_disk_node/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
         - ./config/rabbitmq_disk_node/advanced.config:/etc/rabbitmq/advanced.config
+        - ./config/rabbitmq_disk_node/management_agent.disable_metrics_collector.conf:/etc/rabbitmq/conf.d/management_agent.disable_metrics_collector.conf
         # env 配置文件
         - ./config/rabbitmq_disk_node/rabbitmq-env.conf:/etc/rabbitmq/rabbitmq-env.conf
       command: /tmp/supervisord_dist_node_main.sh
