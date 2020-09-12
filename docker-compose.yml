@@ -11,10 +11,10 @@ services:
 
       restart: always
       ports:
-        - "15672:15672"   # web管理端口
-        - "5672:5672"   #客户端连接的网络接口
-        - "25672:25672"   #Erlang分发服务器端口
-        - "4369:4369"   #epmd守护进程
+        - "31000:31000"   # web管理端口
+        - "31001:31001"   #客户端连接的网络接口
+        - "31002:31002"   #Erlang分发服务器端口
+        - "31003:31003"   #epmd守护进程
       environment:
          # 配置文件
         - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq
