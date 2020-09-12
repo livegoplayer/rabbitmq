@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b18af523-964f-4692-b382-9e6678a79333" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,10 +178,10 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1599903420965">
+    <state x="252" y="0" key="CommitChangelistDialog2" timestamp="1599916959008">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599903420965" />
+    <state x="252" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1599916959008" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1598623684817">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -194,10 +194,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="561" y="232" width="424" height="273" key="MultipleFileMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1598522628931" />
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1599903422831">
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1599916961116">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599903422831" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1599916961116" />
     <state x="476" y="47" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598609993241">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
