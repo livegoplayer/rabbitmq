@@ -2,7 +2,7 @@ version: '3'
 
 services:
     rabbitmq_disk_node:
-      build: ./
+      image: xjyplayer/rabbitmq:1.0.1
       # 这个主机作为磁盘节点
       hostname: rabbitmq_base_disk_node_host
       container_name: rabbitmq_disk_node_container
