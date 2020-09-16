@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: rabbitmq-imroc-io
+  namespace: rabbitmq-server
+spec:
+  secretName: rabbitmq-imroc-io-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  dnsNames:
+  - rabbitmq.52db.club
